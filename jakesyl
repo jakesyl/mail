@@ -7285,3 +7285,40 @@ After doing this, you may fix the identity used for this commit with:
 To https://github.com/jakesyl/mail.git
    4a8aa88..5ab4ca2  master -> master
 
+From root@server Thu Nov 06 12:38:04 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 06 Nov 2014 12:38:04 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XmR0W-0000i4-6X
+	for root@server; Thu, 06 Nov 2014 12:38:04 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull &&  git add -A && git commit -m "log update" && git push
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XmR0W-0000i4-6X@server>
+Date: Thu, 06 Nov 2014 12:38:04 -0500
+
+Already up-to-date.
+[master 89e320d] log update
+ Committer: jakesyl <root@server>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 37 insertions(+)
+To https://github.com/jakesyl/mail.git
+   5ab4ca2..89e320d  master -> master
+
