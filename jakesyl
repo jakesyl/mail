@@ -14796,3 +14796,62 @@ After doing this, you may fix the identity used for this commit with:
 To https://github.com/jakesyl/mail.git
    0bebd18..2d4caf3  master -> master
 
+From root@server Sat Nov 08 12:05:03 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Sat, 08 Nov 2014 12:05:03 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xn9Rf-0007wJ-LS
+	for root@server; Sat, 08 Nov 2014 12:05:03 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull &&  git add -A && git commit -m "log update" && git push
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xn9Rf-0007wJ-LS@server>
+Date: Sat, 08 Nov 2014 12:05:03 -0500
+
+Already up-to-date.
+[master 89946eb] log update
+ Committer: jakesyl <root@server>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 37 insertions(+)
+To https://github.com/jakesyl/mail.git
+   2d4caf3..89946eb  master -> master
+
+From jakesyl@server Sat Nov 08 12:05:36 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Sat, 08 Nov 2014 12:05:36 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xn9SC-0007xI-4a
+	for jakesyl@server; Sat, 08 Nov 2014 12:05:36 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xn9SC-0007xI-4a@server>
+Date: Sat, 08 Nov 2014 12:05:36 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
