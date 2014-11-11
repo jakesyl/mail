@@ -6702,3 +6702,2141 @@ Date: Mon, 10 Nov 2014 12:59:01 -0500
 
 /bin/sh: 1: speedtest-cli: not found
 
+From root@server Mon Nov 10 12:59:04 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 12:59:04 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XntF2-00025U-7m
+	for root@server; Mon, 10 Nov 2014 12:59:04 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull &&  git add -A && git commit -m "log update" && git push
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XntF2-00025U-7m@server>
+Date: Mon, 10 Nov 2014 12:59:04 -0500
+
+Already up-to-date.
+[master 6d8d5c3] log update
+ Committer: jakesyl <root@server>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 58 insertions(+)
+To https://github.com/jakesyl/mail.git
+   eb4b642..6d8d5c3  master -> master
+
+From jakesyl@server Mon Nov 10 13:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 13:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XntLL-0002Ep-1X
+	for jakesyl@server; Mon, 10 Nov 2014 13:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XntLL-0002Ep-1X@server>
+Date: Mon, 10 Nov 2014 13:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 13:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 13:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XntPo-0002M1-Qz
+	for root@server; Mon, 10 Nov 2014 13:10:12 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XntPo-0002M1-Qz@server>
+Date: Mon, 10 Nov 2014 13:10:12 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 13:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 13:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XnuB3-0003Rz-49
+	for jakesyl@server; Mon, 10 Nov 2014 13:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XnuB3-0003Rz-49@server>
+Date: Mon, 10 Nov 2014 13:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 14:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 14:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XnuHP-0003bT-79
+	for jakesyl@server; Mon, 10 Nov 2014 14:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XnuHP-0003bT-79@server>
+Date: Mon, 10 Nov 2014 14:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 14:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 14:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XnuLs-0003ig-W3
+	for root@server; Mon, 10 Nov 2014 14:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XnuLs-0003ig-W3@server>
+Date: Mon, 10 Nov 2014 14:10:12 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Hit http://security.debian.org wheezy/updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 14:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 14:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xnv77-0004ol-8G
+	for jakesyl@server; Mon, 10 Nov 2014 14:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xnv77-0004ol-8G@server>
+Date: Mon, 10 Nov 2014 14:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 15:05:54 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 15:05:54 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XnvDm-0004ye-6I
+	for jakesyl@server; Mon, 10 Nov 2014 15:05:54 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XnvDm-0004ye-6I@server>
+Date: Mon, 10 Nov 2014 15:05:54 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 15:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 15:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XnvHx-00055l-4P
+	for root@server; Mon, 10 Nov 2014 15:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XnvHx-00055l-4P@server>
+Date: Mon, 10 Nov 2014 15:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 15:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 15:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xnw3B-0006Lv-DC
+	for jakesyl@server; Mon, 10 Nov 2014 15:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xnw3B-0006Lv-DC@server>
+Date: Mon, 10 Nov 2014 15:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 16:05:56 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 16:05:56 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xnw9s-0006XJ-KE
+	for jakesyl@server; Mon, 10 Nov 2014 16:05:56 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xnw9s-0006XJ-KE@server>
+Date: Mon, 10 Nov 2014 16:05:56 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 16:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 16:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XnwE1-0006ep-FQ
+	for root@server; Mon, 10 Nov 2014 16:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XnwE1-0006ep-FQ@server>
+Date: Mon, 10 Nov 2014 16:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 16:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 16:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XnwzF-0007uu-Ns
+	for jakesyl@server; Mon, 10 Nov 2014 16:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XnwzF-0007uu-Ns@server>
+Date: Mon, 10 Nov 2014 16:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 17:05:36 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 17:05:36 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xnx5c-00085m-GD
+	for jakesyl@server; Mon, 10 Nov 2014 17:05:36 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xnx5c-00085m-GD@server>
+Date: Mon, 10 Nov 2014 17:05:36 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 17:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 17:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XnxA5-0008Dt-5e
+	for root@server; Mon, 10 Nov 2014 17:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XnxA5-0008Dt-5e@server>
+Date: Mon, 10 Nov 2014 17:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 17:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 17:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XnxvJ-00011q-ED
+	for jakesyl@server; Mon, 10 Nov 2014 17:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XnxvJ-00011q-ED@server>
+Date: Mon, 10 Nov 2014 17:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 18:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 18:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xny1f-0001CY-91
+	for jakesyl@server; Mon, 10 Nov 2014 18:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xny1f-0001CY-91@server>
+Date: Mon, 10 Nov 2014 18:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 18:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 18:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xny68-0001Jl-UI
+	for root@server; Mon, 10 Nov 2014 18:10:12 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xny68-0001Jl-UI@server>
+Date: Mon, 10 Nov 2014 18:10:12 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Get:1 http://ftp.us.debian.org wheezy-updates Release.gpg [836 B]
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release
+Get:2 http://ftp.us.debian.org wheezy-updates Release [124 kB]
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Get:3 http://ftp.us.debian.org wheezy-updates/main Sources [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Fetched 125 kB in 6s (19.5 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 18:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 18:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XnyrN-0002T9-7w
+	for jakesyl@server; Mon, 10 Nov 2014 18:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XnyrN-0002T9-7w@server>
+Date: Mon, 10 Nov 2014 18:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 19:05:34 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 19:05:34 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xnyxi-0002eK-O1
+	for jakesyl@server; Mon, 10 Nov 2014 19:05:34 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xnyxi-0002eK-O1@server>
+Date: Mon, 10 Nov 2014 19:05:34 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 19:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 19:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xnz2D-0002lX-GW
+	for root@server; Mon, 10 Nov 2014 19:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xnz2D-0002lX-GW@server>
+Date: Mon, 10 Nov 2014 19:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 19:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 19:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XnznR-0003rh-PE
+	for jakesyl@server; Mon, 10 Nov 2014 19:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XnznR-0003rh-PE@server>
+Date: Mon, 10 Nov 2014 19:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 20:05:44 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 20:05:44 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xnztw-00043k-MJ
+	for jakesyl@server; Mon, 10 Nov 2014 20:05:44 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xnztw-00043k-MJ@server>
+Date: Mon, 10 Nov 2014 20:05:44 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 20:10:21 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 20:10:21 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XnzyP-0004BU-Fx
+	for root@server; Mon, 10 Nov 2014 20:10:21 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XnzyP-0004BU-Fx@server>
+Date: Mon, 10 Nov 2014 20:10:21 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 20:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 20:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo0jV-0001uP-5v
+	for jakesyl@server; Mon, 10 Nov 2014 20:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo0jV-0001uP-5v@server>
+Date: Mon, 10 Nov 2014 20:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 21:05:36 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 21:05:36 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo0ps-00027s-9V
+	for jakesyl@server; Mon, 10 Nov 2014 21:05:36 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo0ps-00027s-9V@server>
+Date: Mon, 10 Nov 2014 21:05:36 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 21:10:14 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 21:10:14 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo0uM-0002FZ-Qk
+	for root@server; Mon, 10 Nov 2014 21:10:14 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo0uM-0002FZ-Qk@server>
+Date: Mon, 10 Nov 2014 21:10:14 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 21:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 21:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo1fZ-0003JY-8G
+	for jakesyl@server; Mon, 10 Nov 2014 21:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo1fZ-0003JY-8G@server>
+Date: Mon, 10 Nov 2014 21:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 22:05:38 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 22:05:38 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo1lx-0003Sp-Sq
+	for jakesyl@server; Mon, 10 Nov 2014 22:05:37 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo1lx-0003Sp-Sq@server>
+Date: Mon, 10 Nov 2014 22:05:37 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 22:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 22:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo1qP-0003Zk-JV
+	for root@server; Mon, 10 Nov 2014 22:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo1qP-0003Zk-JV@server>
+Date: Mon, 10 Nov 2014 22:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 22:59:02 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 22:59:02 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo2bd-0004f8-S3
+	for jakesyl@server; Mon, 10 Nov 2014 22:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo2bd-0004f8-S3@server>
+Date: Mon, 10 Nov 2014 22:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Mon Nov 10 23:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 23:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo2hz-0004oN-5e
+	for jakesyl@server; Mon, 10 Nov 2014 23:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo2hz-0004oN-5e@server>
+Date: Mon, 10 Nov 2014 23:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Mon Nov 10 23:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Mon, 10 Nov 2014 23:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo2mT-0004vQ-0G
+	for root@server; Mon, 10 Nov 2014 23:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo2mT-0004vQ-0G@server>
+Date: Mon, 10 Nov 2014 23:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Get:1 http://ftp.us.debian.org wheezy-updates Release.gpg [836 B]
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release.gpg
+Get:2 http://ftp.us.debian.org wheezy-updates Release [124 kB]
+Hit http://security.debian.org wheezy/updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Get:3 http://ftp.us.debian.org wheezy-updates/main Sources [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Fetched 125 kB in 6s (19.4 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Mon Nov 10 23:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Mon, 10 Nov 2014 23:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo3Xh-0005zT-8i
+	for jakesyl@server; Mon, 10 Nov 2014 23:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo3Xh-0005zT-8i@server>
+Date: Mon, 10 Nov 2014 23:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 00:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 00:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo3e2-00068g-Vn
+	for jakesyl@server; Tue, 11 Nov 2014 00:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo3e2-00068g-Vn@server>
+Date: Tue, 11 Nov 2014 00:05:34 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 00:10:12 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 00:10:12 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo3iW-0006Ff-Pq
+	for root@server; Tue, 11 Nov 2014 00:10:12 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo3iW-0006Ff-Pq@server>
+Date: Tue, 11 Nov 2014 00:10:12 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 00:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 00:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo4Tl-0007Jo-2i
+	for jakesyl@server; Tue, 11 Nov 2014 00:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo4Tl-0007Jo-2i@server>
+Date: Tue, 11 Nov 2014 00:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 01:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 01:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo4a7-0007T0-2x
+	for jakesyl@server; Tue, 11 Nov 2014 01:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo4a7-0007T0-2x@server>
+Date: Tue, 11 Nov 2014 01:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 01:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 01:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo4ea-0007a0-S5
+	for root@server; Tue, 11 Nov 2014 01:10:12 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo4ea-0007a0-S5@server>
+Date: Tue, 11 Nov 2014 01:10:12 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 01:30:03 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 01:30:03 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo4xn-00081U-LT
+	for jakesyl@server; Tue, 11 Nov 2014 01:30:03 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/Engine && git pull
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo4xn-00081U-LT@server>
+Date: Tue, 11 Nov 2014 01:30:03 -0500
+
+Your configuration specifies to merge with the ref 'django'
+from the remote, but no such ref was fetched.
+
+From jakesyl@server Tue Nov 11 01:59:02 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 01:59:02 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo5Pp-0000DJ-VN
+	for jakesyl@server; Tue, 11 Nov 2014 01:59:02 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo5Pp-0000DJ-VN@server>
+Date: Tue, 11 Nov 2014 01:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 02:05:34 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 02:05:34 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo5WA-0000MY-HO
+	for jakesyl@server; Tue, 11 Nov 2014 02:05:34 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo5WA-0000MY-HO@server>
+Date: Tue, 11 Nov 2014 02:05:34 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 02:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 02:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo5af-0000Tb-AX
+	for root@server; Tue, 11 Nov 2014 02:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo5af-0000Tb-AX@server>
+Date: Tue, 11 Nov 2014 02:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 02:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 02:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo6Lt-0001dG-J1
+	for jakesyl@server; Tue, 11 Nov 2014 02:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo6Lt-0001dG-J1@server>
+Date: Tue, 11 Nov 2014 02:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 03:05:47 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 03:05:47 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo6SQ-0001ml-VX
+	for jakesyl@server; Tue, 11 Nov 2014 03:05:47 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo6SQ-0001ml-VX@server>
+Date: Tue, 11 Nov 2014 03:05:46 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 03:10:12 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 03:10:12 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo6Wi-0001td-PN
+	for root@server; Tue, 11 Nov 2014 03:10:12 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo6Wi-0001td-PN@server>
+Date: Tue, 11 Nov 2014 03:10:12 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 03:59:02 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 03:59:02 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo7Hy-0002xq-1e
+	for jakesyl@server; Tue, 11 Nov 2014 03:59:02 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo7Hy-0002xq-1e@server>
+Date: Tue, 11 Nov 2014 03:59:02 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 04:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 04:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo7OJ-000372-9b
+	for jakesyl@server; Tue, 11 Nov 2014 04:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo7OJ-000372-9b@server>
+Date: Tue, 11 Nov 2014 04:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 04:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 04:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo7Sn-0003E2-3w
+	for root@server; Tue, 11 Nov 2014 04:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo7Sn-0003E2-3w@server>
+Date: Tue, 11 Nov 2014 04:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 04:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 04:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo8E1-0004I8-CU
+	for jakesyl@server; Tue, 11 Nov 2014 04:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo8E1-0004I8-CU@server>
+Date: Tue, 11 Nov 2014 04:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 05:05:34 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 05:05:34 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo8KM-0004RO-Gb
+	for jakesyl@server; Tue, 11 Nov 2014 05:05:34 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo8KM-0004RO-Gb@server>
+Date: Tue, 11 Nov 2014 05:05:34 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 05:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 05:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo8Or-0004YP-Dl
+	for root@server; Tue, 11 Nov 2014 05:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo8Or-0004YP-Dl@server>
+Date: Tue, 11 Nov 2014 05:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Get:1 http://ftp.us.debian.org wheezy-updates Release.gpg [836 B]
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Get:2 http://ftp.us.debian.org wheezy-updates Release [124 kB]
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Get:3 http://ftp.us.debian.org wheezy-updates/main Sources [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Fetched 125 kB in 6s (19.1 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 05:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 05:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo9A5-0005cW-M6
+	for jakesyl@server; Tue, 11 Nov 2014 05:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo9A5-0005cW-M6@server>
+Date: Tue, 11 Nov 2014 05:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 06:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 06:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo9GR-0005li-Hj
+	for jakesyl@server; Tue, 11 Nov 2014 06:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo9GR-0005li-Hj@server>
+Date: Tue, 11 Nov 2014 06:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 06:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 06:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xo9Kv-0005se-B0
+	for root@server; Tue, 11 Nov 2014 06:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xo9Kv-0005se-B0@server>
+Date: Tue, 11 Nov 2014 06:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 06:30:03 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 06:30:03 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1Xo9e7-0006NU-4M
+	for jakesyl@server; Tue, 11 Nov 2014 06:30:03 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/QOTD && git pull
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1Xo9e7-0006NU-4M@server>
+Date: Tue, 11 Nov 2014 06:30:03 -0500
+
+>From https://github.com/jakesyl/QOTD
+   4b84413..33e5dbb  gh-pages   -> origin/gh-pages
+   ad5b655..a10af31  master     -> origin/master
+Updating 4b84413..33e5dbb
+Fast-forward
+ _posts/2014-11-1150.md |    1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 _posts/2014-11-1150.md
+
+From jakesyl@server Tue Nov 11 06:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 06:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoA69-00070u-Dn
+	for jakesyl@server; Tue, 11 Nov 2014 06:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoA69-00070u-Dn@server>
+Date: Tue, 11 Nov 2014 06:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 07:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 07:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoACV-0007A6-Cd
+	for jakesyl@server; Tue, 11 Nov 2014 07:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoACV-0007A6-Cd@server>
+Date: Tue, 11 Nov 2014 07:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 07:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 07:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoAGz-0007H5-DK
+	for root@server; Tue, 11 Nov 2014 07:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoAGz-0007H5-DK@server>
+Date: Tue, 11 Nov 2014 07:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 07:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 07:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoB2D-0008Nb-MJ
+	for jakesyl@server; Tue, 11 Nov 2014 07:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoB2D-0008Nb-MJ@server>
+Date: Tue, 11 Nov 2014 07:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 08:05:44 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 08:05:44 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoB8i-00005o-5g
+	for jakesyl@server; Tue, 11 Nov 2014 08:05:44 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoB8i-00005o-5g@server>
+Date: Tue, 11 Nov 2014 08:05:44 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 08:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 08:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoBD3-0000D0-7D
+	for root@server; Tue, 11 Nov 2014 08:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoBD3-0000D0-7D@server>
+Date: Tue, 11 Nov 2014 08:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 08:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 08:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoByH-0001QL-GO
+	for jakesyl@server; Tue, 11 Nov 2014 08:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoByH-0001QL-GO@server>
+Date: Tue, 11 Nov 2014 08:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 09:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 09:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoC4d-0001ad-Dd
+	for jakesyl@server; Tue, 11 Nov 2014 09:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoC4d-0001ad-Dd@server>
+Date: Tue, 11 Nov 2014 09:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 09:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 09:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoC97-0001iA-CH
+	for root@server; Tue, 11 Nov 2014 09:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoC97-0001iA-CH@server>
+Date: Tue, 11 Nov 2014 09:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 09:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 09:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoCuL-0002oa-LS
+	for jakesyl@server; Tue, 11 Nov 2014 09:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoCuL-0002oa-LS@server>
+Date: Tue, 11 Nov 2014 09:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 10:05:35 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 10:05:35 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoD0h-0002xr-QF
+	for jakesyl@server; Tue, 11 Nov 2014 10:05:35 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoD0h-0002xr-QF@server>
+Date: Tue, 11 Nov 2014 10:05:35 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 10:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 10:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoD5B-00034s-Ki
+	for root@server; Tue, 11 Nov 2014 10:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoD5B-00034s-Ki@server>
+Date: Tue, 11 Nov 2014 10:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 10:59:02 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 10:59:02 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoDqP-00048z-T5
+	for jakesyl@server; Tue, 11 Nov 2014 10:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoDqP-00048z-T5@server>
+Date: Tue, 11 Nov 2014 10:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
+From jakesyl@server Tue Nov 11 11:05:36 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 11:05:36 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoDwm-0004IG-G1
+	for jakesyl@server; Tue, 11 Nov 2014 11:05:36 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd ~/apt/ &&  rm -rf apt.git && git clone --mirror git://anonscm.debian.org/git/apt/apt.git && cd apt.git && git push --mirror  https://github.com/jakesyl/Advance_Package_Tool.git && cd ~/apt/ && rm -rf apt.git
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoDwm-0004IG-G1@server>
+Date: Tue, 11 Nov 2014 11:05:36 -0500
+
+Cloning into bare repository 'apt.git'...
+Everything up-to-date
+
+From root@server Tue Nov 11 11:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Tue, 11 Nov 2014 11:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoE1F-0004PE-9Z
+	for root@server; Tue, 11 Nov 2014 11:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoE1F-0004PE-9Z@server>
+Date: Tue, 11 Nov 2014 11:10:13 -0500
+
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Get:1 http://ftp.us.debian.org wheezy-updates Release.gpg [836 B]
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release
+Get:2 http://ftp.us.debian.org wheezy-updates Release [124 kB]
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Get:3 http://ftp.us.debian.org wheezy-updates/main Sources [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Fetched 125 kB in 6s (19.4 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Setting up Update Process
+No Packages marked for Update
+
+From jakesyl@server Tue Nov 11 11:59:01 2014
+Return-path: <jakesyl@server>
+Envelope-to: jakesyl@server
+Delivery-date: Tue, 11 Nov 2014 11:59:01 -0500
+Received: from jakesyl by server with local (Exim 4.80)
+	(envelope-from <jakesyl@server>)
+	id 1XoEmT-0005Ta-I2
+	for jakesyl@server; Tue, 11 Nov 2014 11:59:01 -0500
+From: root@server (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> speedtest-cli
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <E1XoEmT-0005Ta-I2@server>
+Date: Tue, 11 Nov 2014 11:59:01 -0500
+
+/bin/sh: 1: speedtest-cli: not found
+
