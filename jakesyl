@@ -27305,3 +27305,53 @@ Already up-to-date.
 To https://github.com/jakesyl/mail.git
    c4a6b66..e4bcfdb  master -> master
 
+From root@server Thu Nov 13 12:48:02 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:48:02 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoyV0-0000OL-B7
+	for root@server; Thu, 13 Nov 2014 12:48:02 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoyV0-0000OL-B7@server>
+Date: Thu, 13 Nov 2014 12:48:02 -0500
+
+fatal: Unable to create '/var/mail/.git/ORIG_HEAD.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+
+From root@server Thu Nov 13 12:48:04 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:48:04 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoyV2-0000Ok-E0
+	for root@server; Thu, 13 Nov 2014 12:48:04 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull &&  git add -A && git commit -m "log update" && git push
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoyV2-0000Ok-E0@server>
+Date: Thu, 13 Nov 2014 12:48:04 -0500
+
+Already up-to-date.
+[master 25e4a25] log update
+ 1 file changed, 46 insertions(+)
+To https://github.com/jakesyl/mail.git
+   e4bcfdb..25e4a25  master -> master
+
