@@ -26060,3 +26060,49 @@ Already up-to-date.
 To https://github.com/jakesyl/mail.git
    ed8cc86..c14bdc1  master -> master
 
+From root@server Thu Nov 13 12:21:02 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:21:02 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xoy4s-0007OM-7l
+	for root@server; Thu, 13 Nov 2014 12:21:02 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xoy4s-0007OM-7l@server>
+Date: Thu, 13 Nov 2014 12:21:02 -0500
+
+Already up-to-date.
+
+From root@server Thu Nov 13 12:21:04 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:21:04 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xoy4u-0007Oj-97
+	for root@server; Thu, 13 Nov 2014 12:21:04 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull &&  git add -A && git commit -m "log update" && git push
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xoy4u-0007Oj-97@server>
+Date: Thu, 13 Nov 2014 12:21:04 -0500
+
+Already up-to-date.
+[master 83ec215] log update
+ 1 file changed, 46 insertions(+)
+To https://github.com/jakesyl/mail.git
+   c14bdc1..83ec215  master -> master
+
