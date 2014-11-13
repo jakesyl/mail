@@ -25485,3 +25485,115 @@ Already up-to-date.
 To https://github.com/jakesyl/mail.git
    8a3c6e3..f24c50b  master -> master
 
+From root@server Thu Nov 13 12:10:02 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:10:02 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoxuE-0006nW-50
+	for root@server; Thu, 13 Nov 2014 12:10:02 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoxuE-0006nW-50@server>
+Date: Thu, 13 Nov 2014 12:10:02 -0500
+
+Already up-to-date.
+
+From root@server Thu Nov 13 12:10:04 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:10:04 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoxuG-0006nv-LK
+	for root@server; Thu, 13 Nov 2014 12:10:04 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull &&  git add -A && git commit -m "log update" && git push
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoxuG-0006nv-LK@server>
+Date: Thu, 13 Nov 2014 12:10:04 -0500
+
+Already up-to-date.
+[master b24c26d] log update
+ 1 file changed, 46 insertions(+)
+To https://github.com/jakesyl/mail.git
+   f24c50b..b24c26d  master -> master
+
+From root@server Thu Nov 13 12:10:13 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:10:13 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoxuP-0006oa-Qm
+	for root@server; Thu, 13 Nov 2014 12:10:13 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get dist-upgrade && apt-get upgrade && yum update
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoxuP-0006oa-Qm@server>
+Date: Thu, 13 Nov 2014 12:10:13 -0500
+
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://download.mono-project.com wheezy Release.gpg
+Hit http://download.mono-project.com wheezy-libtiff-compat Release.gpg
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://download.mono-project.com wheezy Release
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://download.mono-project.com wheezy-libtiff-compat Release
+Hit http://download.mono-project.com wheezy/main i386 Packages
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/main i386 Packages
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/main i386 Packages
+Hit http://download.mono-project.com wheezy-libtiff-compat/main i386 Packages
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main i386 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Ign http://download.mono-project.com wheezy/main Translation-en_US
+Ign http://download.mono-project.com wheezy/main Translation-en
+Ign http://download.mono-project.com wheezy-libtiff-compat/main Translation-en_US
+Ign http://download.mono-project.com wheezy-libtiff-compat/main Translation-en
+Reading package lists...
+W: Duplicate sources.list entry http://download.mono-project.com/repo/debian/ wheezy-libtiff-compat/main i386 Packages (/var/lib/apt/lists/download.mono-project.com_repo_debian_dists_wheezy-libtiff-compat_main_binary-i386_Packages)
+W: You may want to run apt-get update to correct these problems
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libmono-corlib4.5-cil mono-runtime-common mono-runtime-sgen
+The following packages will be upgraded:
+  cli-common libgdiplus libglib2.0-cil libgtk2.0-cil libmono-addins-gui0.2-cil
+  libmono-addins0.2-cil libmono-cairo4.0-cil libmono-corlib4.0-cil
+  libmono-i18n-west4.0-cil libmono-i18n4.0-cil libmono-posix4.0-cil
+  libmono-security4.0-cil libmono-sharpzip4.84-cil
+  libmono-system-configuration4.0-cil libmono-system-core4.0-cil
+  libmono-system-drawing4.0-cil libmono-system-security4.0-cil
+  libmono-system-xml4.0-cil libmono-system4.0-cil mono-4.0-gac mono-gac
+  mono-runtime
+22 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 14.4 MB of archives.
+After this operation, 19.1 MB of additional disk space will be used.
+Do you want to continue [Y/n]? Abort.
+
