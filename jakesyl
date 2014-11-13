@@ -25689,3 +25689,52 @@ Already up-to-date.
 To https://github.com/jakesyl/mail.git
    d69df30..229071b  master -> master
 
+From root@server Thu Nov 13 12:13:02 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:13:02 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1Xoxx8-0006xr-7L
+	for root@server; Thu, 13 Nov 2014 12:13:02 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1Xoxx8-0006xr-7L@server>
+Date: Thu, 13 Nov 2014 12:13:02 -0500
+
+Warning: fetch updated the current branch head.
+Warning: fast-forwarding your working tree from
+Warning: commit 229071be5d7d73c29ce101dd4bc1a18591887c75.
+Already up-to-date.
+
+From root@server Thu Nov 13 12:13:04 2014
+Return-path: <root@server>
+Envelope-to: root@server
+Delivery-date: Thu, 13 Nov 2014 12:13:04 -0500
+Received: from root by server with local (Exim 4.80)
+	(envelope-from <root@server>)
+	id 1XoxxA-0006yB-6A
+	for root@server; Thu, 13 Nov 2014 12:13:04 -0500
+From: root@server (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail/ && git pull &&  git add -A && git commit -m "log update" && git push
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1XoxxA-0006yB-6A@server>
+Date: Thu, 13 Nov 2014 12:13:04 -0500
+
+Already up-to-date.
+[master eb6fcb0] log update
+ 1 file changed, 46 insertions(+)
+To https://github.com/jakesyl/mail.git
+   229071b..eb6fcb0  master -> master
+
