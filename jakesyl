@@ -51992,3 +51992,190 @@ Date: Sat, 13 Dec 2014 00:09:02 -0500 (EST)
 
 Already up-to-date.
 
+From root@Phishtrain.com  Sat Dec 13 00:10:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 1772F5560A75; Sat, 13 Dec 2014 00:10:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213051002.1772F5560A75@server>
+Date: Sat, 13 Dec 2014 00:10:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:10:03 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 87CA45560A75; Sat, 13 Dec 2014 00:10:03 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/mail && git pull && git add -A && git commit -m "added update" && git push -f && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213051003.87CA45560A75@server>
+Date: Sat, 13 Dec 2014 00:10:03 -0500 (EST)
+
+Already up-to-date.
+[master e149ed2] added update
+ Committer: root <root@Phishtrain.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1290 insertions(+)
+To https://github.com/jakesyl/mail.git
+   0dfbad4..e149ed2  master -> master
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:10:08 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id C07F65560A75; Sat, 13 Dec 2014 00:10:08 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> apt-get update && apt-get upgrade -y
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213051008.C07F65560A75@server>
+Date: Sat, 13 Dec 2014 00:10:08 -0500 (EST)
+
+Hit http://downloads-distro.mongodb.org dist Release.gpg
+Hit http://downloads-distro.mongodb.org dist Release
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://downloads-distro.mongodb.org dist/10gen amd64 Packages
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://download.opensuse.org  Release.gpg
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://security.debian.org wheezy/updates/contrib Sources
+Hit http://http.debian.net wheezy-backports Release.gpg
+Hit http://download.opensuse.org  Release
+Hit http://security.debian.org wheezy/updates/non-free Sources
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates/main amd64 Packages
+Hit http://security.debian.org wheezy/updates/contrib amd64 Packages
+Hit http://download.opensuse.org  Packages
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit https://get.docker.com docker Release.gpg
+Hit http://security.debian.org wheezy/updates/non-free amd64 Packages
+Hit http://http.debian.net wheezy-backports Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/contrib Translation-en
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free Sources
+Hit http://security.debian.org wheezy/updates/non-free Translation-en
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en_US
+Hit http://ftp.us.debian.org wheezy/contrib Sources
+Hit http://http.debian.net wheezy-backports/main amd64 Packages/DiffIndex
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Hit http://http.debian.net wheezy-backports/main Translation-en/DiffIndex
+Hit https://get.docker.com docker Release
+Hit http://ftp.us.debian.org wheezy/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free Translation-en
+Hit https://get.docker.com docker/main amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/contrib Sources
+Hit http://ftp.us.debian.org wheezy-updates/non-free Sources
+Ign http://download.opensuse.org  Translation-en_US
+Hit http://ftp.us.debian.org wheezy-updates/main amd64 Packages/DiffIndex
+Ign http://download.opensuse.org  Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/contrib Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/non-free Translation-en
+Ign https://get.docker.com docker/main Translation-en_US
+Ign https://get.docker.com docker/main Translation-en
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages have been kept back:
+  linux-image-amd64 lxc-docker
+The following packages will be upgraded:
+  dbus libdbus-1-3
+Reading changelogs...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+2 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Need to get 0 B/577 kB of archives.
+After this operation, 167 kB of additional disk space will be used.
+dpkg: warning: 'ldconfig' not found in PATH or not executable
+dpkg: warning: 'start-stop-daemon' not found in PATH or not executable
+dpkg: error: 2 expected programs not found in PATH or not executable
+Note: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+From root@Phishtrain.com  Sat Dec 13 00:11:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 975905560A75; Sat, 13 Dec 2014 00:11:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213051102.975905560A75@server>
+Date: Sat, 13 Dec 2014 00:11:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:12:03 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 780A35560A75; Sat, 13 Dec 2014 00:12:03 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213051203.780A35560A75@server>
+Date: Sat, 13 Dec 2014 00:12:03 -0500 (EST)
+
+Already up-to-date.
+
