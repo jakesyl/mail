@@ -50702,3 +50702,1293 @@ Date: Fri, 12 Dec 2014 23:09:02 -0500 (EST)
 
 Already up-to-date.
 
+From root@Phishtrain.com  Fri Dec 12 23:10:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id CAB045560A11; Fri, 12 Dec 2014 23:10:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041001.CAB045560A11@server>
+Date: Fri, 12 Dec 2014 23:10:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:10:03 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 347EC5560A11; Fri, 12 Dec 2014 23:10:03 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/mail && git pull && git add -A && git commit -m "added update" && git push -f && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041003.347EC5560A11@server>
+Date: Fri, 12 Dec 2014 23:10:03 -0500 (EST)
+
+Already up-to-date.
+[master 0dfbad4] added update
+ Committer: root <root@Phishtrain.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 19 insertions(+)
+To https://github.com/jakesyl/mail.git
+   0489489..0dfbad4  master -> master
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:10:08 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id CA83F5560A11; Fri, 12 Dec 2014 23:10:08 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> apt-get update && apt-get upgrade -y
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041008.CA83F5560A11@server>
+Date: Fri, 12 Dec 2014 23:10:08 -0500 (EST)
+
+Hit http://downloads-distro.mongodb.org dist Release.gpg
+Hit http://downloads-distro.mongodb.org dist Release
+Hit http://downloads-distro.mongodb.org dist/10gen amd64 Packages
+Hit http://download.opensuse.org  Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://security.debian.org wheezy/updates Release
+Hit http://download.opensuse.org  Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://http.debian.net wheezy-backports Release.gpg
+Hit http://security.debian.org wheezy/updates/contrib Sources
+Hit http://security.debian.org wheezy/updates/non-free Sources
+Hit http://download.opensuse.org  Packages
+Hit https://get.docker.com docker Release.gpg
+Hit http://security.debian.org wheezy/updates/main amd64 Packages
+Hit http://security.debian.org wheezy/updates/contrib amd64 Packages
+Hit http://security.debian.org wheezy/updates/non-free amd64 Packages
+Hit http://security.debian.org wheezy/updates/contrib Translation-en
+Hit http://http.debian.net wheezy-backports Release
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en_US
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en
+Hit http://security.debian.org wheezy/updates/non-free Translation-en
+Hit http://http.debian.net wheezy-backports/main amd64 Packages/DiffIndex
+Hit https://get.docker.com docker Release
+Hit http://http.debian.net wheezy-backports/main Translation-en/DiffIndex
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit https://get.docker.com docker/main amd64 Packages
+Get:1 http://ftp.us.debian.org wheezy-updates Release.gpg [836 B]
+Hit http://ftp.us.debian.org wheezy Release
+Get:2 http://ftp.us.debian.org wheezy-updates Release [124 kB]
+Ign http://download.opensuse.org  Translation-en_US
+Ign http://download.opensuse.org  Translation-en
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/non-free Sources
+Hit http://ftp.us.debian.org wheezy/contrib Sources
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Hit http://ftp.us.debian.org wheezy/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free Translation-en
+Get:3 http://ftp.us.debian.org wheezy-updates/main Sources [1,805 B]
+Get:4 http://ftp.us.debian.org wheezy-updates/contrib Sources [14 B]
+Get:5 http://ftp.us.debian.org wheezy-updates/non-free Sources [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main amd64 Packages/DiffIndex
+Get:6 http://ftp.us.debian.org wheezy-updates/contrib amd64 Packages [14 B]
+Get:7 http://ftp.us.debian.org wheezy-updates/non-free amd64 Packages [14 B]
+Get:8 http://ftp.us.debian.org wheezy-updates/contrib Translation-en [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Get:9 http://ftp.us.debian.org wheezy-updates/non-free Translation-en [14 B]
+Ign https://get.docker.com docker/main Translation-en_US
+Ign https://get.docker.com docker/main Translation-en
+Fetched 126 kB in 5s (23.7 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages have been kept back:
+  linux-image-amd64 lxc-docker
+The following packages will be upgraded:
+  dbus libdbus-1-3
+Reading changelogs...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+2 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Need to get 0 B/577 kB of archives.
+After this operation, 167 kB of additional disk space will be used.
+dpkg: warning: 'ldconfig' not found in PATH or not executable
+dpkg: warning: 'start-stop-daemon' not found in PATH or not executable
+dpkg: error: 2 expected programs not found in PATH or not executable
+Note: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+From root@Phishtrain.com  Fri Dec 12 23:11:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 931075560A11; Fri, 12 Dec 2014 23:11:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041102.931075560A11@server>
+Date: Fri, 12 Dec 2014 23:11:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:12:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 60A375560A11; Fri, 12 Dec 2014 23:12:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041202.60A375560A11@server>
+Date: Fri, 12 Dec 2014 23:12:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:13:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 531BA5560A11; Fri, 12 Dec 2014 23:13:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041302.531BA5560A11@server>
+Date: Fri, 12 Dec 2014 23:13:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:14:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 2CC9E5560A11; Fri, 12 Dec 2014 23:14:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041402.2CC9E5560A11@server>
+Date: Fri, 12 Dec 2014 23:14:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:15:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 275B35560A11; Fri, 12 Dec 2014 23:15:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041502.275B35560A11@server>
+Date: Fri, 12 Dec 2014 23:15:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:16:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id E243B5560A11; Fri, 12 Dec 2014 23:16:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041601.E243B5560A11@server>
+Date: Fri, 12 Dec 2014 23:16:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:17:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id CA9025560A11; Fri, 12 Dec 2014 23:17:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041702.CA9025560A11@server>
+Date: Fri, 12 Dec 2014 23:17:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:18:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id B5A675560A11; Fri, 12 Dec 2014 23:18:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041802.B5A675560A11@server>
+Date: Fri, 12 Dec 2014 23:18:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:19:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 9D7E85560A11; Fri, 12 Dec 2014 23:19:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213041902.9D7E85560A11@server>
+Date: Fri, 12 Dec 2014 23:19:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:20:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 6B81D5560A11; Fri, 12 Dec 2014 23:20:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042002.6B81D5560A11@server>
+Date: Fri, 12 Dec 2014 23:20:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:21:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 3F8A55560A11; Fri, 12 Dec 2014 23:21:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042102.3F8A55560A11@server>
+Date: Fri, 12 Dec 2014 23:21:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:22:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 26C585560A11; Fri, 12 Dec 2014 23:22:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042202.26C585560A11@server>
+Date: Fri, 12 Dec 2014 23:22:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:23:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 0B5085560A11; Fri, 12 Dec 2014 23:23:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042302.0B5085560A11@server>
+Date: Fri, 12 Dec 2014 23:23:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:24:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id D38F25560A11; Fri, 12 Dec 2014 23:24:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042401.D38F25560A11@server>
+Date: Fri, 12 Dec 2014 23:24:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:25:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id CD3735560A11; Fri, 12 Dec 2014 23:25:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042502.CD3735560A11@server>
+Date: Fri, 12 Dec 2014 23:25:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:26:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 9935C5560A11; Fri, 12 Dec 2014 23:26:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042602.9935C5560A11@server>
+Date: Fri, 12 Dec 2014 23:26:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:27:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 875165560A11; Fri, 12 Dec 2014 23:27:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042702.875165560A11@server>
+Date: Fri, 12 Dec 2014 23:27:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:28:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 795995560A11; Fri, 12 Dec 2014 23:28:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042802.795995560A11@server>
+Date: Fri, 12 Dec 2014 23:28:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:29:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 6B28C5560A11; Fri, 12 Dec 2014 23:29:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213042902.6B28C5560A11@server>
+Date: Fri, 12 Dec 2014 23:29:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:30:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 595245560A11; Fri, 12 Dec 2014 23:30:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043002.595245560A11@server>
+Date: Fri, 12 Dec 2014 23:30:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:31:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 24CB85560A11; Fri, 12 Dec 2014 23:31:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043102.24CB85560A11@server>
+Date: Fri, 12 Dec 2014 23:31:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:32:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id E0C1E5560A11; Fri, 12 Dec 2014 23:32:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043201.E0C1E5560A11@server>
+Date: Fri, 12 Dec 2014 23:32:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:33:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id D88825560A11; Fri, 12 Dec 2014 23:33:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043302.D88825560A11@server>
+Date: Fri, 12 Dec 2014 23:33:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:34:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id CB5675560A11; Fri, 12 Dec 2014 23:34:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043402.CB5675560A11@server>
+Date: Fri, 12 Dec 2014 23:34:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:35:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id C07C15560A11; Fri, 12 Dec 2014 23:35:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043502.C07C15560A11@server>
+Date: Fri, 12 Dec 2014 23:35:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:36:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 87B2A5560A11; Fri, 12 Dec 2014 23:36:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043602.87B2A5560A11@server>
+Date: Fri, 12 Dec 2014 23:36:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:37:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 787665560A11; Fri, 12 Dec 2014 23:37:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043702.787665560A11@server>
+Date: Fri, 12 Dec 2014 23:37:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:38:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 43BB45560A11; Fri, 12 Dec 2014 23:38:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043802.43BB45560A11@server>
+Date: Fri, 12 Dec 2014 23:38:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:39:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 2E2E25560A11; Fri, 12 Dec 2014 23:39:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213043902.2E2E25560A11@server>
+Date: Fri, 12 Dec 2014 23:39:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:40:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 1EC075560A11; Fri, 12 Dec 2014 23:40:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044002.1EC075560A11@server>
+Date: Fri, 12 Dec 2014 23:40:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:41:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 168495560A11; Fri, 12 Dec 2014 23:41:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044102.168495560A11@server>
+Date: Fri, 12 Dec 2014 23:41:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:42:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id D69445560A11; Fri, 12 Dec 2014 23:42:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044201.D69445560A11@server>
+Date: Fri, 12 Dec 2014 23:42:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:43:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 9E3445560A11; Fri, 12 Dec 2014 23:43:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044302.9E3445560A11@server>
+Date: Fri, 12 Dec 2014 23:43:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:44:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 961A95560A11; Fri, 12 Dec 2014 23:44:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044402.961A95560A11@server>
+Date: Fri, 12 Dec 2014 23:44:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:45:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 63CDB5560A11; Fri, 12 Dec 2014 23:45:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044502.63CDB5560A11@server>
+Date: Fri, 12 Dec 2014 23:45:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:46:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 2C7745560A11; Fri, 12 Dec 2014 23:46:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044602.2C7745560A11@server>
+Date: Fri, 12 Dec 2014 23:46:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:47:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id EA41D5560A11; Fri, 12 Dec 2014 23:47:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044701.EA41D5560A11@server>
+Date: Fri, 12 Dec 2014 23:47:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:48:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id C3F445560A11; Fri, 12 Dec 2014 23:48:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044802.C3F445560A11@server>
+Date: Fri, 12 Dec 2014 23:48:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:49:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 9950F5560A11; Fri, 12 Dec 2014 23:49:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213044902.9950F5560A11@server>
+Date: Fri, 12 Dec 2014 23:49:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:50:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 7456D5560A11; Fri, 12 Dec 2014 23:50:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045002.7456D5560A11@server>
+Date: Fri, 12 Dec 2014 23:50:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:51:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 42E845560A11; Fri, 12 Dec 2014 23:51:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045102.42E845560A11@server>
+Date: Fri, 12 Dec 2014 23:51:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:52:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 096DD5560A11; Fri, 12 Dec 2014 23:52:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045202.096DD5560A11@server>
+Date: Fri, 12 Dec 2014 23:52:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:53:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id DEEC45560A11; Fri, 12 Dec 2014 23:53:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045301.DEEC45560A11@server>
+Date: Fri, 12 Dec 2014 23:53:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:54:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id A54A25560A11; Fri, 12 Dec 2014 23:54:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045402.A54A25560A11@server>
+Date: Fri, 12 Dec 2014 23:54:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:55:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 9A41E5560A11; Fri, 12 Dec 2014 23:55:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045502.9A41E5560A11@server>
+Date: Fri, 12 Dec 2014 23:55:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:56:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 64B0C5560A11; Fri, 12 Dec 2014 23:56:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045602.64B0C5560A11@server>
+Date: Fri, 12 Dec 2014 23:56:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:57:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 470B95560A11; Fri, 12 Dec 2014 23:57:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045702.470B95560A11@server>
+Date: Fri, 12 Dec 2014 23:57:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:58:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 25C1F5560A11; Fri, 12 Dec 2014 23:58:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045802.25C1F5560A11@server>
+Date: Fri, 12 Dec 2014 23:58:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Fri Dec 12 23:59:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 02A2C5560A11; Fri, 12 Dec 2014 23:59:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213045902.02A2C5560A11@server>
+Date: Fri, 12 Dec 2014 23:59:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:00:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id D66475560A11; Sat, 13 Dec 2014 00:00:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050001.D66475560A11@server>
+Date: Sat, 13 Dec 2014 00:00:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:01:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 9C1905560A19; Sat, 13 Dec 2014 00:01:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050102.9C1905560A19@server>
+Date: Sat, 13 Dec 2014 00:01:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:02:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 76A3B5560A6F; Sat, 13 Dec 2014 00:02:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050202.76A3B5560A6F@server>
+Date: Sat, 13 Dec 2014 00:02:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:03:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 4DAA05560A6F; Sat, 13 Dec 2014 00:03:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050302.4DAA05560A6F@server>
+Date: Sat, 13 Dec 2014 00:03:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:04:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 227F55560A6F; Sat, 13 Dec 2014 00:04:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050402.227F55560A6F@server>
+Date: Sat, 13 Dec 2014 00:04:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:05:01 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id EA4B55560A6F; Sat, 13 Dec 2014 00:05:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050501.EA4B55560A6F@server>
+Date: Sat, 13 Dec 2014 00:05:01 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:06:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id C3E865560A6F; Sat, 13 Dec 2014 00:06:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050602.C3E865560A6F@server>
+Date: Sat, 13 Dec 2014 00:06:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:07:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 88A515560A6F; Sat, 13 Dec 2014 00:07:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050702.88A515560A6F@server>
+Date: Sat, 13 Dec 2014 00:07:02 -0500 (EST)
+
+Already up-to-date.
+
+From jakesyl@Phishtrain.com  Sat Dec 13 00:08:01 2014
+Return-Path: <jakesyl@Phishtrain.com>
+X-Original-To: jakesyl
+Delivered-To: jakesyl@Phishtrain.com
+Received: by server (Postfix, from userid 1000)
+	id EC1705560A6F; Sat, 13 Dec 2014 00:08:01 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: jakesyl@Phishtrain.com
+Subject: Cron <jakesyl@server> cd /home/jakesyl/public_html/PhishTrain && git pull
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+Message-Id: <20141213050801.EC1705560A6F@server>
+Date: Sat, 13 Dec 2014 00:08:01 -0500 (EST)
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@Phishtrain.com  Sat Dec 13 00:08:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 50F775560A6F; Sat, 13 Dec 2014 00:08:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050802.50F775560A6F@server>
+Date: Sat, 13 Dec 2014 00:08:02 -0500 (EST)
+
+Already up-to-date.
+
+From root@Phishtrain.com  Sat Dec 13 00:09:02 2014
+Return-Path: <root@Phishtrain.com>
+X-Original-To: root
+Delivered-To: root@Phishtrain.com
+Received: by server (Postfix, from userid 0)
+	id 48FA65560A6F; Sat, 13 Dec 2014 00:09:02 -0500 (EST)
+From: root@Phishtrain.com (Cron Daemon)
+To: root@Phishtrain.com
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20141213050902.48FA65560A6F@server>
+Date: Sat, 13 Dec 2014 00:09:02 -0500 (EST)
+
+Already up-to-date.
+
