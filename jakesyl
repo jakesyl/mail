@@ -32710,3 +32710,1590 @@ error: Your local changes to the following files would be overwritten by merge:
 Please, commit your changes or stash them before you can merge.
 Aborting
 
+From root@jakesyl.ddns.net  Fri Dec 26 23:10:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4A15d031749
+	for <root@server>; Fri, 26 Dec 2014 23:10:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4A1Vi031657
+	for root; Fri, 26 Dec 2014 23:10:01 -0500
+Date: Fri, 26 Dec 2014 23:10:01 -0500
+Message-Id: <201412270410.sBR4A1Vi031657@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:11:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4B2gE031948
+	for <root@server>; Fri, 26 Dec 2014 23:11:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4B2QE031783
+	for root; Fri, 26 Dec 2014 23:11:02 -0500
+Date: Fri, 26 Dec 2014 23:11:02 -0500
+Message-Id: <201412270411.sBR4B2QE031783@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:11:03 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4B3IG031951
+	for <root@server>; Fri, 26 Dec 2014 23:11:03 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4B3K8031822
+	for root; Fri, 26 Dec 2014 23:11:03 -0500
+Date: Fri, 26 Dec 2014 23:11:03 -0500
+Message-Id: <201412270411.sBR4B3K8031822@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail && git pull && git add -A && git commit -m "added update" && git push -f && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+[master 231c06a] added update
+ 1 file changed, 1562 insertions(+)
+To https://github.com/jakesyl/mail.git
+   6a493dc..231c06a  master -> master
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:11:09 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4B9Vx031957
+	for <root@server>; Fri, 26 Dec 2014 23:11:09 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4B9xn031895
+	for root; Fri, 26 Dec 2014 23:11:09 -0500
+Date: Fri, 26 Dec 2014 23:11:09 -0500
+Message-Id: <201412270411.sBR4B9xn031895@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get upgrade -y
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Hit http://downloads-distro.mongodb.org dist Release.gpg
+Hit http://downloads-distro.mongodb.org dist Release
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://downloads-distro.mongodb.org dist/10gen amd64 Packages
+Get:1 http://ftp.us.debian.org wheezy-updates Release.gpg [836 B]
+Hit http://download.opensuse.org  Release.gpg
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://http.debian.net wheezy-backports Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://archive.turnkeylinux.org squeeze Release.gpg
+Hit http://download.opensuse.org  Release
+Hit http://security.debian.org wheezy/updates Release
+Get:2 http://ftp.us.debian.org wheezy-updates Release [124 kB]
+Hit http://archive.turnkeylinux.org squeeze Release
+Hit http://archive.turnkeylinux.org squeeze/main amd64 Packages
+Hit http://download.opensuse.org  Packages
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit https://get.docker.com docker Release.gpg
+Hit http://http.debian.net wheezy-backports Release
+Hit http://security.debian.org wheezy/updates/contrib Sources
+Hit http://security.debian.org wheezy/updates/non-free Sources
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en_US
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en_US
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en
+Hit http://security.debian.org wheezy/updates/main amd64 Packages
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://http.debian.net wheezy-backports/main amd64 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy/non-free Sources
+Hit http://security.debian.org wheezy/updates/contrib amd64 Packages
+Hit https://get.docker.com docker Release
+Hit http://http.debian.net wheezy-backports/main Translation-en/DiffIndex
+Hit http://ftp.us.debian.org wheezy/contrib Sources
+Hit http://security.debian.org wheezy/updates/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Hit http://security.debian.org wheezy/updates/contrib Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free amd64 Packages
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://security.debian.org wheezy/updates/non-free Translation-en
+Hit https://get.docker.com docker/main amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib amd64 Packages
+Ign http://download.opensuse.org  Translation-en_US
+Hit http://ftp.us.debian.org wheezy/contrib Translation-en
+Ign http://download.opensuse.org  Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free Translation-en
+Get:3 http://ftp.us.debian.org wheezy-updates/main Sources [1,805 B]
+Get:4 http://ftp.us.debian.org wheezy-updates/contrib Sources [14 B]
+Get:5 http://ftp.us.debian.org wheezy-updates/non-free Sources [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main amd64 Packages/DiffIndex
+Get:6 http://ftp.us.debian.org wheezy-updates/contrib amd64 Packages [14 B]
+Get:7 http://ftp.us.debian.org wheezy-updates/non-free amd64 Packages [14 B]
+Get:8 http://ftp.us.debian.org wheezy-updates/contrib Translation-en [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Get:9 http://ftp.us.debian.org wheezy-updates/non-free Translation-en [14 B]
+Ign https://get.docker.com docker/main Translation-en_US
+Ign https://get.docker.com docker/main Translation-en
+Fetched 126 kB in 5s (24.4 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be upgraded:
+  cpio libjasper1 libsvn1 subversion
+Reading changelogs...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/2,678 kB of archives.
+After this operation, 420 kB disk space will be freed.
+dpkg: warning: 'ldconfig' not found in PATH or not executable
+dpkg: warning: 'start-stop-daemon' not found in PATH or not executable
+dpkg: error: 2 expected programs not found in PATH or not executable
+Note: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:12:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4C1Kt032000
+	for <root@server>; Fri, 26 Dec 2014 23:12:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4C1nb031947
+	for root; Fri, 26 Dec 2014 23:12:01 -0500
+Date: Fri, 26 Dec 2014 23:12:01 -0500
+Message-Id: <201412270412.sBR4C1nb031947@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:13:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4D2dW032059
+	for <root@server>; Fri, 26 Dec 2014 23:13:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4D21M032014
+	for root; Fri, 26 Dec 2014 23:13:02 -0500
+Date: Fri, 26 Dec 2014 23:13:02 -0500
+Message-Id: <201412270413.sBR4D21M032014@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:14:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4E2xG032131
+	for <root@server>; Fri, 26 Dec 2014 23:14:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4E2tN032073
+	for root; Fri, 26 Dec 2014 23:14:02 -0500
+Date: Fri, 26 Dec 2014 23:14:02 -0500
+Message-Id: <201412270414.sBR4E2tN032073@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:15:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4F2rM032179
+	for <root@server>; Fri, 26 Dec 2014 23:15:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4F2Gl032130
+	for root; Fri, 26 Dec 2014 23:15:02 -0500
+Date: Fri, 26 Dec 2014 23:15:02 -0500
+Message-Id: <201412270415.sBR4F2Gl032130@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:16:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4G2GB032258
+	for <root@server>; Fri, 26 Dec 2014 23:16:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4G2qN032193
+	for root; Fri, 26 Dec 2014 23:16:02 -0500
+Date: Fri, 26 Dec 2014 23:16:02 -0500
+Message-Id: <201412270416.sBR4G2qN032193@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:17:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4H2I8032317
+	for <root@server>; Fri, 26 Dec 2014 23:17:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4H2ng032257
+	for root; Fri, 26 Dec 2014 23:17:02 -0500
+Date: Fri, 26 Dec 2014 23:17:02 -0500
+Message-Id: <201412270417.sBR4H2ng032257@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:18:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4I2w1032393
+	for <root@server>; Fri, 26 Dec 2014 23:18:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4I2e3032331
+	for root; Fri, 26 Dec 2014 23:18:02 -0500
+Date: Fri, 26 Dec 2014 23:18:02 -0500
+Message-Id: <201412270418.sBR4I2e3032331@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:19:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4J2PM032441
+	for <root@server>; Fri, 26 Dec 2014 23:19:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4J24Q032390
+	for root; Fri, 26 Dec 2014 23:19:02 -0500
+Date: Fri, 26 Dec 2014 23:19:02 -0500
+Message-Id: <201412270419.sBR4J24Q032390@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:20:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4K2hI032533
+	for <root@server>; Fri, 26 Dec 2014 23:20:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4K2F5032455
+	for root; Fri, 26 Dec 2014 23:20:02 -0500
+Date: Fri, 26 Dec 2014 23:20:02 -0500
+Message-Id: <201412270420.sBR4K2F5032455@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:21:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4L29a032594
+	for <root@server>; Fri, 26 Dec 2014 23:21:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4L2E9032532
+	for root; Fri, 26 Dec 2014 23:21:02 -0500
+Date: Fri, 26 Dec 2014 23:21:02 -0500
+Message-Id: <201412270421.sBR4L2E9032532@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:22:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4M2MN032658
+	for <root@server>; Fri, 26 Dec 2014 23:22:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4M2Rw032593
+	for root; Fri, 26 Dec 2014 23:22:02 -0500
+Date: Fri, 26 Dec 2014 23:22:02 -0500
+Message-Id: <201412270422.sBR4M2Rw032593@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:23:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4N2I1032718
+	for <root@server>; Fri, 26 Dec 2014 23:23:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4N2nZ032657
+	for root; Fri, 26 Dec 2014 23:23:02 -0500
+Date: Fri, 26 Dec 2014 23:23:02 -0500
+Message-Id: <201412270423.sBR4N2nZ032657@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:24:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4O2ZH000310
+	for <root@server>; Fri, 26 Dec 2014 23:24:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4O2di032719
+	for root; Fri, 26 Dec 2014 23:24:02 -0500
+Date: Fri, 26 Dec 2014 23:24:02 -0500
+Message-Id: <201412270424.sBR4O2di032719@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:25:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4P2a6000369
+	for <root@server>; Fri, 26 Dec 2014 23:25:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4P2HL000309
+	for root; Fri, 26 Dec 2014 23:25:02 -0500
+Date: Fri, 26 Dec 2014 23:25:02 -0500
+Message-Id: <201412270425.sBR4P2HL000309@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:26:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4Q2Z9000427
+	for <root@server>; Fri, 26 Dec 2014 23:26:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4Q22H000368
+	for root; Fri, 26 Dec 2014 23:26:02 -0500
+Date: Fri, 26 Dec 2014 23:26:02 -0500
+Message-Id: <201412270426.sBR4Q22H000368@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:27:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4R2sn000476
+	for <root@server>; Fri, 26 Dec 2014 23:27:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4R25a000426
+	for root; Fri, 26 Dec 2014 23:27:02 -0500
+Date: Fri, 26 Dec 2014 23:27:02 -0500
+Message-Id: <201412270427.sBR4R25a000426@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:28:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4S2lG000548
+	for <root@server>; Fri, 26 Dec 2014 23:28:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4S2ju000490
+	for root; Fri, 26 Dec 2014 23:28:02 -0500
+Date: Fri, 26 Dec 2014 23:28:02 -0500
+Message-Id: <201412270428.sBR4S2ju000490@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:29:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4T2Fw000597
+	for <root@server>; Fri, 26 Dec 2014 23:29:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4T2qq000547
+	for root; Fri, 26 Dec 2014 23:29:02 -0500
+Date: Fri, 26 Dec 2014 23:29:02 -0500
+Message-Id: <201412270429.sBR4T2qq000547@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:30:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4U294000674
+	for <root@server>; Fri, 26 Dec 2014 23:30:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4U2pt000613
+	for root; Fri, 26 Dec 2014 23:30:02 -0500
+Date: Fri, 26 Dec 2014 23:30:02 -0500
+Message-Id: <201412270430.sBR4U2pt000613@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:31:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4V2mj000726
+	for <root@server>; Fri, 26 Dec 2014 23:31:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4V10b000673
+	for root; Fri, 26 Dec 2014 23:31:01 -0500
+Date: Fri, 26 Dec 2014 23:31:01 -0500
+Message-Id: <201412270431.sBR4V10b000673@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:32:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4W22Q000793
+	for <root@server>; Fri, 26 Dec 2014 23:32:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4W26t000733
+	for root; Fri, 26 Dec 2014 23:32:02 -0500
+Date: Fri, 26 Dec 2014 23:32:02 -0500
+Message-Id: <201412270432.sBR4W26t000733@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:33:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4X25m000853
+	for <root@server>; Fri, 26 Dec 2014 23:33:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4X1eS000792
+	for root; Fri, 26 Dec 2014 23:33:01 -0500
+Date: Fri, 26 Dec 2014 23:33:01 -0500
+Message-Id: <201412270433.sBR4X1eS000792@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:34:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4Y2Ch000914
+	for <root@server>; Fri, 26 Dec 2014 23:34:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4Y2SX000854
+	for root; Fri, 26 Dec 2014 23:34:02 -0500
+Date: Fri, 26 Dec 2014 23:34:02 -0500
+Message-Id: <201412270434.sBR4Y2SX000854@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:35:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4Z22q000974
+	for <root@server>; Fri, 26 Dec 2014 23:35:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4Z10p000913
+	for root; Fri, 26 Dec 2014 23:35:01 -0500
+Date: Fri, 26 Dec 2014 23:35:01 -0500
+Message-Id: <201412270435.sBR4Z10p000913@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:36:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4a2TI001034
+	for <root@server>; Fri, 26 Dec 2014 23:36:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4a2f2000973
+	for root; Fri, 26 Dec 2014 23:36:02 -0500
+Date: Fri, 26 Dec 2014 23:36:02 -0500
+Message-Id: <201412270436.sBR4a2f2000973@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:37:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4b1Gu001092
+	for <root@server>; Fri, 26 Dec 2014 23:37:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4b1GF001033
+	for root; Fri, 26 Dec 2014 23:37:01 -0500
+Date: Fri, 26 Dec 2014 23:37:01 -0500
+Message-Id: <201412270437.sBR4b1GF001033@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:38:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4c1PK001150
+	for <root@server>; Fri, 26 Dec 2014 23:38:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4c1c0001091
+	for root; Fri, 26 Dec 2014 23:38:01 -0500
+Date: Fri, 26 Dec 2014 23:38:01 -0500
+Message-Id: <201412270438.sBR4c1c0001091@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:39:01 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4d1Ko001220
+	for <root@server>; Fri, 26 Dec 2014 23:39:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4d1ks001149
+	for root; Fri, 26 Dec 2014 23:39:01 -0500
+Date: Fri, 26 Dec 2014 23:39:01 -0500
+Message-Id: <201412270439.sBR4d1ks001149@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:40:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4e1j2001246
+	for <root@server>; Fri, 26 Dec 2014 23:40:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4e1p2001219
+	for root; Fri, 26 Dec 2014 23:40:01 -0500
+Date: Fri, 26 Dec 2014 23:40:01 -0500
+Message-Id: <201412270440.sBR4e1p2001219@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:41:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4f2TT001361
+	for <root@server>; Fri, 26 Dec 2014 23:41:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4f21H001300
+	for root; Fri, 26 Dec 2014 23:41:02 -0500
+Date: Fri, 26 Dec 2014 23:41:02 -0500
+Message-Id: <201412270441.sBR4f21H001300@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:42:01 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4g1cf001386
+	for <root@server>; Fri, 26 Dec 2014 23:42:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4g17K001359
+	for root; Fri, 26 Dec 2014 23:42:01 -0500
+Date: Fri, 26 Dec 2014 23:42:01 -0500
+Message-Id: <201412270442.sBR4g17K001359@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:43:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4h25v001483
+	for <root@server>; Fri, 26 Dec 2014 23:43:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4h2aZ001424
+	for root; Fri, 26 Dec 2014 23:43:02 -0500
+Date: Fri, 26 Dec 2014 23:43:02 -0500
+Message-Id: <201412270443.sBR4h2aZ001424@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:44:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4i291001541
+	for <root@server>; Fri, 26 Dec 2014 23:44:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4i2rE001482
+	for root; Fri, 26 Dec 2014 23:44:02 -0500
+Date: Fri, 26 Dec 2014 23:44:02 -0500
+Message-Id: <201412270444.sBR4i2rE001482@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:45:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4j2bw001599
+	for <root@server>; Fri, 26 Dec 2014 23:45:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4j21U001540
+	for root; Fri, 26 Dec 2014 23:45:02 -0500
+Date: Fri, 26 Dec 2014 23:45:02 -0500
+Message-Id: <201412270445.sBR4j21U001540@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:46:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4k2xK001670
+	for <root@server>; Fri, 26 Dec 2014 23:46:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4k2Bm001605
+	for root; Fri, 26 Dec 2014 23:46:02 -0500
+Date: Fri, 26 Dec 2014 23:46:02 -0500
+Message-Id: <201412270446.sBR4k2Bm001605@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:47:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4l2B4001725
+	for <root@server>; Fri, 26 Dec 2014 23:47:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4l2Gj001669
+	for root; Fri, 26 Dec 2014 23:47:02 -0500
+Date: Fri, 26 Dec 2014 23:47:02 -0500
+Message-Id: <201412270447.sBR4l2Gj001669@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:48:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4m2u6001795
+	for <root@server>; Fri, 26 Dec 2014 23:48:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4m2dL001732
+	for root; Fri, 26 Dec 2014 23:48:02 -0500
+Date: Fri, 26 Dec 2014 23:48:02 -0500
+Message-Id: <201412270448.sBR4m2dL001732@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:49:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4n2vL001857
+	for <root@server>; Fri, 26 Dec 2014 23:49:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4n2Xd001794
+	for root; Fri, 26 Dec 2014 23:49:02 -0500
+Date: Fri, 26 Dec 2014 23:49:02 -0500
+Message-Id: <201412270449.sBR4n2Xd001794@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:50:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4o2MI001917
+	for <root@server>; Fri, 26 Dec 2014 23:50:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4o2TC001856
+	for root; Fri, 26 Dec 2014 23:50:02 -0500
+Date: Fri, 26 Dec 2014 23:50:02 -0500
+Message-Id: <201412270450.sBR4o2TC001856@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:51:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4p2dO001981
+	for <root@server>; Fri, 26 Dec 2014 23:51:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4p2e0001916
+	for root; Fri, 26 Dec 2014 23:51:02 -0500
+Date: Fri, 26 Dec 2014 23:51:02 -0500
+Message-Id: <201412270451.sBR4p2e0001916@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:52:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4q2qn002044
+	for <root@server>; Fri, 26 Dec 2014 23:52:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4q264001980
+	for root; Fri, 26 Dec 2014 23:52:02 -0500
+Date: Fri, 26 Dec 2014 23:52:02 -0500
+Message-Id: <201412270452.sBR4q264001980@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:53:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4r2ig002103
+	for <root@server>; Fri, 26 Dec 2014 23:53:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4r233002043
+	for root; Fri, 26 Dec 2014 23:53:02 -0500
+Date: Fri, 26 Dec 2014 23:53:02 -0500
+Message-Id: <201412270453.sBR4r233002043@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:54:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4s2hH002165
+	for <root@server>; Fri, 26 Dec 2014 23:54:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4s2rA002102
+	for root; Fri, 26 Dec 2014 23:54:02 -0500
+Date: Fri, 26 Dec 2014 23:54:02 -0500
+Message-Id: <201412270454.sBR4s2rA002102@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:55:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4t2Dx002228
+	for <root@server>; Fri, 26 Dec 2014 23:55:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4t2R4002164
+	for root; Fri, 26 Dec 2014 23:55:02 -0500
+Date: Fri, 26 Dec 2014 23:55:02 -0500
+Message-Id: <201412270455.sBR4t2R4002164@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:56:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4u2Km002291
+	for <root@server>; Fri, 26 Dec 2014 23:56:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4u2ia002227
+	for root; Fri, 26 Dec 2014 23:56:02 -0500
+Date: Fri, 26 Dec 2014 23:56:02 -0500
+Message-Id: <201412270456.sBR4u2ia002227@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:57:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4v2IR002337
+	for <root@server>; Fri, 26 Dec 2014 23:57:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4v20x002288
+	for root; Fri, 26 Dec 2014 23:57:02 -0500
+Date: Fri, 26 Dec 2014 23:57:02 -0500
+Message-Id: <201412270457.sBR4v20x002288@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:58:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4w2se002412
+	for <root@server>; Fri, 26 Dec 2014 23:58:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4w23E002351
+	for root; Fri, 26 Dec 2014 23:58:02 -0500
+Date: Fri, 26 Dec 2014 23:58:02 -0500
+Message-Id: <201412270458.sBR4w23E002351@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Fri Dec 26 23:59:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR4x2ru002464
+	for <root@server>; Fri, 26 Dec 2014 23:59:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR4x2P2002411
+	for root; Fri, 26 Dec 2014 23:59:02 -0500
+Date: Fri, 26 Dec 2014 23:59:02 -0500
+Message-Id: <201412270459.sBR4x2P2002411@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:00:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR502KH002590
+	for <root@server>; Sat, 27 Dec 2014 00:00:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR502GD002479
+	for root; Sat, 27 Dec 2014 00:00:02 -0500
+Date: Sat, 27 Dec 2014 00:00:02 -0500
+Message-Id: <201412270500.sBR502GD002479@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:01:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR5123i002642
+	for <root@server>; Sat, 27 Dec 2014 00:01:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR512p2002589
+	for root; Sat, 27 Dec 2014 00:01:02 -0500
+Date: Sat, 27 Dec 2014 00:01:02 -0500
+Message-Id: <201412270501.sBR512p2002589@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:02:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR522SX002710
+	for <root@server>; Sat, 27 Dec 2014 00:02:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR522fh002650
+	for root; Sat, 27 Dec 2014 00:02:02 -0500
+Date: Sat, 27 Dec 2014 00:02:02 -0500
+Message-Id: <201412270502.sBR522fh002650@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:03:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR5328Z002758
+	for <root@server>; Sat, 27 Dec 2014 00:03:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR532oR002709
+	for root; Sat, 27 Dec 2014 00:03:02 -0500
+Date: Sat, 27 Dec 2014 00:03:02 -0500
+Message-Id: <201412270503.sBR532oR002709@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:04:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR542tO002828
+	for <root@server>; Sat, 27 Dec 2014 00:04:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR542Ou002772
+	for root; Sat, 27 Dec 2014 00:04:02 -0500
+Date: Sat, 27 Dec 2014 00:04:02 -0500
+Message-Id: <201412270504.sBR542Ou002772@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:05:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR552fG002876
+	for <root@server>; Sat, 27 Dec 2014 00:05:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR552tt002827
+	for root; Sat, 27 Dec 2014 00:05:02 -0500
+Date: Sat, 27 Dec 2014 00:05:02 -0500
+Message-Id: <201412270505.sBR552tt002827@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:06:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR562BR002949
+	for <root@server>; Sat, 27 Dec 2014 00:06:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR562rZ002890
+	for root; Sat, 27 Dec 2014 00:06:02 -0500
+Date: Sat, 27 Dec 2014 00:06:02 -0500
+Message-Id: <201412270506.sBR562rZ002890@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:07:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR572AY002997
+	for <root@server>; Sat, 27 Dec 2014 00:07:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR572G1002948
+	for root; Sat, 27 Dec 2014 00:07:02 -0500
+Date: Sat, 27 Dec 2014 00:07:02 -0500
+Message-Id: <201412270507.sBR572G1002948@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:08:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR582i4003079
+	for <root@server>; Sat, 27 Dec 2014 00:08:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR582rm003014
+	for root; Sat, 27 Dec 2014 00:08:02 -0500
+Date: Sat, 27 Dec 2014 00:08:02 -0500
+Message-Id: <201412270508.sBR582rm003014@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From jakesyl@jakesyl.ddns.net  Sat Dec 27 00:09:01 2014
+Return-Path: <jakesyl@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR591Md003102
+	for <jakesyl@server>; Sat, 27 Dec 2014 00:09:01 -0500
+Received: (from jakesyl@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR591f5003042
+	for jakesyl; Sat, 27 Dec 2014 00:09:01 -0500
+Date: Sat, 27 Dec 2014 00:09:01 -0500
+Message-Id: <201412270509.sBR591f5003042@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd /home/jakesyl/public_html/PhishTrain && git pull
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+
+/bin/sh: 1: cd: can't cd to /home/jakesyl/public_html/PhishTrain
+
+From root@jakesyl.ddns.net  Sat Dec 27 00:09:02 2014
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id sBR592VO003164
+	for <root@server>; Sat, 27 Dec 2014 00:09:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id sBR592w8003078
+	for root; Sat, 27 Dec 2014 00:09:02 -0500
+Date: Sat, 27 Dec 2014 00:09:02 -0500
+Message-Id: <201412270509.sBR592w8003078@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
