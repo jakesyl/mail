@@ -31304,3 +31304,392 @@ error: Your local changes to the following files would be overwritten by merge:
 Please, commit your changes or stash them before you can merge.
 Aborting
 
+From root@jakesyl.ddns.net  Sat Jan  3 22:10:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t043A23M005972
+	for <root@server>; Sat, 3 Jan 2015 22:10:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t043A2QM005896
+	for root; Sat, 3 Jan 2015 22:10:02 -0500
+Date: Sat, 3 Jan 2015 22:10:02 -0500
+Message-Id: <201501040310.t043A2QM005896@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Jan  3 22:11:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t043B2xu006206
+	for <root@server>; Sat, 3 Jan 2015 22:11:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t043B2L6005999
+	for root; Sat, 3 Jan 2015 22:11:02 -0500
+Date: Sat, 3 Jan 2015 22:11:02 -0500
+Message-Id: <201501040311.t043B2L6005999@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+>From https://github.com/jakesyl/www
+   1289baa..a2c7912  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Jan  3 22:11:05 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t043B5cw006218
+	for <root@server>; Sat, 3 Jan 2015 22:11:05 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t043B5eN006047
+	for root; Sat, 3 Jan 2015 22:11:05 -0500
+Date: Sat, 3 Jan 2015 22:11:05 -0500
+Message-Id: <201501040311.t043B5eN006047@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail && git pull && git add -A && git commit -m "added update" && git push -f && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+[master 5f0c8a4] added update
+ 1 file changed, 1519 insertions(+)
+To https://github.com/jakesyl/mail.git
+   c8181fb..5f0c8a4  master -> master
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Jan  3 22:11:12 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t043BCqA006222
+	for <root@server>; Sat, 3 Jan 2015 22:11:12 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t043BCUJ006173
+	for root; Sat, 3 Jan 2015 22:11:12 -0500
+Date: Sat, 3 Jan 2015 22:11:12 -0500
+Message-Id: <201501040311.t043BCUJ006173@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get upgrade -y
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Hit http://downloads-distro.mongodb.org dist Release.gpg
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://downloads-distro.mongodb.org dist Release
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://archive.turnkeylinux.org squeeze Release.gpg
+Hit http://pkg.jenkins-ci.org binary/ Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://download.opensuse.org  Release.gpg
+Hit http://archive.turnkeylinux.org squeeze Release
+Hit http://ftp.us.debian.org wheezy-updates Release
+Hit http://pkg.jenkins-ci.org binary/ Release
+Hit http://security.debian.org wheezy/updates Release
+Hit http://toolbelt.heroku.com ./ Release.gpg
+Hit http://downloads-distro.mongodb.org dist/10gen amd64 Packages
+Hit http://http.debian.net wheezy-backports Release.gpg
+Hit http://toolbelt.heroku.com ./ Release
+Hit http://download.opensuse.org  Release
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://ftp.us.debian.org wheezy/non-free Sources
+Hit http://ftp.us.debian.org wheezy/contrib Sources
+Hit http://http.debian.net wheezy-backports Release
+Hit https://get.docker.com docker Release.gpg
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Hit http://archive.turnkeylinux.org squeeze/main amd64 Packages
+Hit http://ftp.us.debian.org wheezy/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free Translation-en
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en_US
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en
+Hit https://get.docker.com docker Release
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en_US
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/contrib Sources
+Hit http://pkg.jenkins-ci.org binary/ Packages
+Hit http://ftp.us.debian.org wheezy-updates/non-free Sources
+Hit http://ftp.us.debian.org wheezy-updates/main amd64 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/contrib Translation-en
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Hit http://ftp.us.debian.org wheezy-updates/non-free Translation-en
+Hit http://security.debian.org wheezy/updates/contrib Sources
+Hit http://security.debian.org wheezy/updates/non-free Sources
+Hit http://security.debian.org wheezy/updates/main amd64 Packages
+Hit http://toolbelt.heroku.com ./ Packages
+Hit http://security.debian.org wheezy/updates/contrib amd64 Packages
+Hit http://security.debian.org wheezy/updates/non-free amd64 Packages
+Hit http://download.opensuse.org  Packages
+Hit http://security.debian.org wheezy/updates/contrib Translation-en
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://security.debian.org wheezy/updates/non-free Translation-en
+Ign http://toolbelt.heroku.com ./ Translation-en_US
+Hit http://http.debian.net wheezy-backports/main amd64 Packages/DiffIndex
+Ign http://toolbelt.heroku.com ./ Translation-en
+Hit https://get.docker.com docker/main amd64 Packages
+Hit http://http.debian.net wheezy-backports/main Translation-en/DiffIndex
+Ign http://pkg.jenkins-ci.org binary/ Translation-en_US
+Ign http://pkg.jenkins-ci.org binary/ Translation-en
+Ign http://download.opensuse.org  Translation-en_US
+Ign http://download.opensuse.org  Translation-en
+Ign https://get.docker.com docker/main Translation-en_US
+Ign https://get.docker.com docker/main Translation-en
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be upgraded:
+  heroku heroku-toolbelt libapache2-mod-php5 php-pear php5 php5-cli
+  php5-common php5-curl php5-gd php5-intl php5-mcrypt php5-mysql php5-pgsql
+  php5-sqlite
+Reading changelogs...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+14 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/7,367 kB of archives.
+After this operation, 1,024 B of additional disk space will be used.
+dpkg: warning: 'ldconfig' not found in PATH or not executable
+dpkg: warning: 'start-stop-daemon' not found in PATH or not executable
+dpkg: error: 2 expected programs not found in PATH or not executable
+Note: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+From root@jakesyl.ddns.net  Sat Jan  3 22:12:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t043C2rR006265
+	for <root@server>; Sat, 3 Jan 2015 22:12:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t043C202006215
+	for root; Sat, 3 Jan 2015 22:12:02 -0500
+Date: Sat, 3 Jan 2015 22:12:02 -0500
+Message-Id: <201501040312.t043C202006215@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+>From https://github.com/jakesyl/www
+   a2c7912..eac256c  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Jan  3 22:13:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t043D2Zc006306
+	for <root@server>; Sat, 3 Jan 2015 22:13:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t043D27m006264
+	for root; Sat, 3 Jan 2015 22:13:02 -0500
+Date: Sat, 3 Jan 2015 22:13:02 -0500
+Message-Id: <201501040313.t043D27m006264@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+>From https://github.com/jakesyl/www
+   eac256c..b8359e5  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Sat Jan  3 22:14:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t043E2mH006348
+	for <root@server>; Sat, 3 Jan 2015 22:14:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t043E2uD006305
+	for root; Sat, 3 Jan 2015 22:14:02 -0500
+Date: Sat, 3 Jan 2015 22:14:02 -0500
+Message-Id: <201501040314.t043E2uD006305@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+From root@jakesyl.ddns.net  Wed Jan  7 22:06:03 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t08363PF004133
+	for <root@server>; Wed, 7 Jan 2015 22:06:03 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t083637v004068
+	for root; Wed, 7 Jan 2015 22:06:03 -0500
+Date: Wed, 7 Jan 2015 22:06:03 -0500
+Message-Id: <201501080306.t083637v004068@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: Authentication failed
+
+From root@jakesyl.ddns.net  Wed Jan  7 22:07:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t08372xi004163
+	for <root@server>; Wed, 7 Jan 2015 22:07:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t08372d9004132
+	for root; Wed, 7 Jan 2015 22:07:02 -0500
+Date: Wed, 7 Jan 2015 22:07:02 -0500
+Message-Id: <201501080307.t08372d9004132@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Wed Jan  7 22:08:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t08381lv004196
+	for <root@server>; Wed, 7 Jan 2015 22:08:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t08381dl004162
+	for root; Wed, 7 Jan 2015 22:08:01 -0500
+Date: Wed, 7 Jan 2015 22:08:01 -0500
+Message-Id: <201501080308.t08381dl004162@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From jakesyl@jakesyl.ddns.net  Wed Jan  7 22:09:01 2015
+Return-Path: <jakesyl@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t08391wW004201
+	for <jakesyl@server>; Wed, 7 Jan 2015 22:09:01 -0500
+Received: (from jakesyl@localhost)
+	by server (8.14.4/8.14.4/Submit) id t08391Wo004173
+	for jakesyl; Wed, 7 Jan 2015 22:09:01 -0500
+Date: Wed, 7 Jan 2015 22:09:01 -0500
+Message-Id: <201501080309.t08391Wo004173@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd /home/jakesyl/public_html/PhishTrain && git pull
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+
+/bin/sh: 1: cd: can't cd to /home/jakesyl/public_html/PhishTrain
+
+From root@jakesyl.ddns.net  Wed Jan  7 22:09:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t083919g004235
+	for <root@server>; Wed, 7 Jan 2015 22:09:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t08391wD004195
+	for root; Wed, 7 Jan 2015 22:09:01 -0500
+Date: Wed, 7 Jan 2015 22:09:01 -0500
+Message-Id: <201501080309.t08391wD004195@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Wed Jan  7 22:10:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t083A1Dk004246
+	for <root@server>; Wed, 7 Jan 2015 22:10:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t083A1FR004234
+	for root; Wed, 7 Jan 2015 22:10:01 -0500
+Date: Wed, 7 Jan 2015 22:10:01 -0500
+Message-Id: <201501080310.t083A1FR004234@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
