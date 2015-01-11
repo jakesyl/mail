@@ -16570,3 +16570,1425 @@ X-Cron-Env: <LOGNAME=root>
 
 fatal: could not read Username for 'https://github.com': No such device or address
 
+From root@jakesyl.ddns.net  Sun Jan 11 14:11:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJB2TY012058
+	for <root@server>; Sun, 11 Jan 2015 14:11:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJB2vf011596
+	for root; Sun, 11 Jan 2015 14:11:02 -0500
+Date: Sun, 11 Jan 2015 14:11:02 -0500
+Message-Id: <201501111911.t0BJB2vf011596@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:11:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJB2mb012061
+	for <root@server>; Sun, 11 Jan 2015 14:11:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJB2Rb011609
+	for root; Sun, 11 Jan 2015 14:11:02 -0500
+Date: Sun, 11 Jan 2015 14:11:02 -0500
+Message-Id: <201501111911.t0BJB2Rb011609@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail && git pull && git add -A && git commit -m "added update" && git push -f && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+[master ed8b11c] added update
+ 1 file changed, 1425 insertions(+)
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:11:17 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJBHfA012065
+	for <root@server>; Sun, 11 Jan 2015 14:11:17 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJBHKb012031
+	for root; Sun, 11 Jan 2015 14:11:17 -0500
+Date: Sun, 11 Jan 2015 14:11:17 -0500
+Message-Id: <201501111911.t0BJBHKb012031@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get upgrade -y
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Hit http://archive.turnkeylinux.org squeeze Release.gpg
+Hit http://downloads-distro.mongodb.org dist Release.gpg
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://archive.turnkeylinux.org squeeze Release
+Hit http://downloads-distro.mongodb.org dist Release
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://ftp.us.debian.org wheezy-updates Release.gpg
+Hit http://archive.turnkeylinux.org squeeze/main amd64 Packages
+Hit http://downloads-distro.mongodb.org dist/10gen amd64 Packages
+Hit http://security.debian.org wheezy/updates Release
+Hit http://pkg.jenkins-ci.org binary/ Release.gpg
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://toolbelt.heroku.com ./ Release.gpg
+Hit http://download.opensuse.org  Release.gpg
+Hit http://security.debian.org wheezy/updates/main Sources
+Hit http://ftp.us.debian.org wheezy-updates Release
+Get:1 http://http.debian.net wheezy-backports Release.gpg [836 B]
+Hit http://pkg.jenkins-ci.org binary/ Release
+Hit http://toolbelt.heroku.com ./ Release
+Hit http://security.debian.org wheezy/updates/contrib Sources
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/non-free Sources
+Hit http://ftp.us.debian.org wheezy/non-free Sources
+Hit http://download.opensuse.org  Release
+Hit http://toolbelt.heroku.com ./ Packages
+Hit http://pkg.jenkins-ci.org binary/ Packages
+Hit http://security.debian.org wheezy/updates/main amd64 Packages
+Hit http://http.debian.net wheezy-backports Release
+Hit http://ftp.us.debian.org wheezy/contrib Sources
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en_US
+Hit http://security.debian.org wheezy/updates/contrib amd64 Packages
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Hit http://download.opensuse.org  Packages
+Hit http://security.debian.org wheezy/updates/non-free amd64 Packages
+Hit https://get.docker.com docker Release.gpg
+Hit http://ftp.us.debian.org wheezy/non-free amd64 Packages
+Hit http://http.debian.net wheezy-backports/main amd64 Packages/DiffIndex
+Hit http://ftp.us.debian.org wheezy/contrib amd64 Packages
+Hit http://security.debian.org wheezy/updates/contrib Translation-en
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy/contrib Translation-en
+Get:2 http://http.debian.net wheezy-backports/main Translation-en/DiffIndex [7,819 B]
+Hit http://security.debian.org wheezy/updates/non-free Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free Translation-en
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en_US
+Hit http://ftp.us.debian.org wheezy-updates/main Sources
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/contrib Sources
+Hit http://ftp.us.debian.org wheezy-updates/non-free Sources
+Hit https://get.docker.com docker Release
+Hit http://ftp.us.debian.org wheezy-updates/main amd64 Packages/DiffIndex
+Ign http://toolbelt.heroku.com ./ Translation-en_US
+Ign http://toolbelt.heroku.com ./ Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/contrib Translation-en
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Ign http://pkg.jenkins-ci.org binary/ Translation-en_US
+Hit https://get.docker.com docker/main amd64 Packages
+Hit http://ftp.us.debian.org wheezy-updates/non-free Translation-en
+Ign http://pkg.jenkins-ci.org binary/ Translation-en
+Ign http://download.opensuse.org  Translation-en_US
+Ign http://download.opensuse.org  Translation-en
+Ign https://get.docker.com docker/main Translation-en_US
+Ign https://get.docker.com docker/main Translation-en
+Fetched 8,655 B in 5s (1,695 B/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be upgraded:
+  apache2 apache2-doc apache2-mpm-prefork apache2-utils apache2.2-bin
+  apache2.2-common apt apt-transport-https apt-utils base-files binutils curl
+  debian-archive-keyring file heroku heroku-toolbelt jenkins
+  libapache2-mod-php5 libapt-inst1.5 libapt-pkg4.12 libcurl3 libcurl3-gnutls
+  libcurl4-openssl-dev libevent-2.0-5 libmagic1 libssl-dev libssl-doc
+  libssl1.0.0 linux-image-3.2.0-4-amd64 linux-libc-dev openssl php-pear php5
+  php5-cli php5-common php5-curl php5-gd php5-intl php5-mcrypt php5-mysql
+  php5-pgsql php5-sqlite tzdata tzdata-java
+Reading changelogs...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+44 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/110 MB of archives.
+After this operation, 2,403 kB disk space will be freed.
+dpkg: warning: 'ldconfig' not found in PATH or not executable
+dpkg: warning: 'start-stop-daemon' not found in PATH or not executable
+dpkg: error: 2 expected programs not found in PATH or not executable
+Note: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:12:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJC2h6012094
+	for <root@server>; Sun, 11 Jan 2015 14:12:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJC2cO012057
+	for root; Sun, 11 Jan 2015 14:12:02 -0500
+Date: Sun, 11 Jan 2015 14:12:02 -0500
+Message-Id: <201501111912.t0BJC2cO012057@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:13:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJD1xD012121
+	for <root@server>; Sun, 11 Jan 2015 14:13:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJD1qA012093
+	for root; Sun, 11 Jan 2015 14:13:01 -0500
+Date: Sun, 11 Jan 2015 14:13:01 -0500
+Message-Id: <201501111913.t0BJD1qA012093@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:14:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJE1Ra012151
+	for <root@server>; Sun, 11 Jan 2015 14:14:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJE19o012127
+	for root; Sun, 11 Jan 2015 14:14:01 -0500
+Date: Sun, 11 Jan 2015 14:14:01 -0500
+Message-Id: <201501111914.t0BJE19o012127@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:15:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJF1VC012181
+	for <root@server>; Sun, 11 Jan 2015 14:15:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJF1ov012156
+	for root; Sun, 11 Jan 2015 14:15:01 -0500
+Date: Sun, 11 Jan 2015 14:15:01 -0500
+Message-Id: <201501111915.t0BJF1ov012156@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:16:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJG2ls012212
+	for <root@server>; Sun, 11 Jan 2015 14:16:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJG22F012187
+	for root; Sun, 11 Jan 2015 14:16:02 -0500
+Date: Sun, 11 Jan 2015 14:16:02 -0500
+Message-Id: <201501111916.t0BJG22F012187@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:17:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJH25t012249
+	for <root@server>; Sun, 11 Jan 2015 14:17:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJH2qS012216
+	for root; Sun, 11 Jan 2015 14:17:02 -0500
+Date: Sun, 11 Jan 2015 14:17:02 -0500
+Message-Id: <201501111917.t0BJH2qS012216@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:18:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJI1sl012275
+	for <root@server>; Sun, 11 Jan 2015 14:18:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJI14j012248
+	for root; Sun, 11 Jan 2015 14:18:01 -0500
+Date: Sun, 11 Jan 2015 14:18:01 -0500
+Message-Id: <201501111918.t0BJI14j012248@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:19:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJJ1GF012306
+	for <root@server>; Sun, 11 Jan 2015 14:19:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJJ1Fu012281
+	for root; Sun, 11 Jan 2015 14:19:01 -0500
+Date: Sun, 11 Jan 2015 14:19:01 -0500
+Message-Id: <201501111919.t0BJJ1Fu012281@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:20:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJK2wS012354
+	for <root@server>; Sun, 11 Jan 2015 14:20:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJK2Xu012312
+	for root; Sun, 11 Jan 2015 14:20:02 -0500
+Date: Sun, 11 Jan 2015 14:20:02 -0500
+Message-Id: <201501111920.t0BJK2Xu012312@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:21:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJL2fe012389
+	for <root@server>; Sun, 11 Jan 2015 14:21:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJL2uG012360
+	for root; Sun, 11 Jan 2015 14:21:02 -0500
+Date: Sun, 11 Jan 2015 14:21:02 -0500
+Message-Id: <201501111921.t0BJL2uG012360@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:22:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJM18w012415
+	for <root@server>; Sun, 11 Jan 2015 14:22:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJM1ub012387
+	for root; Sun, 11 Jan 2015 14:22:01 -0500
+Date: Sun, 11 Jan 2015 14:22:01 -0500
+Message-Id: <201501111922.t0BJM1ub012387@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:23:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJN1v7012445
+	for <root@server>; Sun, 11 Jan 2015 14:23:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJN1sF012421
+	for root; Sun, 11 Jan 2015 14:23:01 -0500
+Date: Sun, 11 Jan 2015 14:23:01 -0500
+Message-Id: <201501111923.t0BJN1sF012421@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:24:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJO148012475
+	for <root@server>; Sun, 11 Jan 2015 14:24:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJO1bE012451
+	for root; Sun, 11 Jan 2015 14:24:01 -0500
+Date: Sun, 11 Jan 2015 14:24:01 -0500
+Message-Id: <201501111924.t0BJO1bE012451@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:25:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJP2Mt012505
+	for <root@server>; Sun, 11 Jan 2015 14:25:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJP2ab012481
+	for root; Sun, 11 Jan 2015 14:25:02 -0500
+Date: Sun, 11 Jan 2015 14:25:02 -0500
+Message-Id: <201501111925.t0BJP2ab012481@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:26:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJQ2fa012540
+	for <root@server>; Sun, 11 Jan 2015 14:26:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJQ2dS012511
+	for root; Sun, 11 Jan 2015 14:26:02 -0500
+Date: Sun, 11 Jan 2015 14:26:02 -0500
+Message-Id: <201501111926.t0BJQ2dS012511@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:27:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJR1Xq012566
+	for <root@server>; Sun, 11 Jan 2015 14:27:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJR1OC012539
+	for root; Sun, 11 Jan 2015 14:27:01 -0500
+Date: Sun, 11 Jan 2015 14:27:01 -0500
+Message-Id: <201501111927.t0BJR1OC012539@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:28:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJS1vc012596
+	for <root@server>; Sun, 11 Jan 2015 14:28:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJS15s012572
+	for root; Sun, 11 Jan 2015 14:28:01 -0500
+Date: Sun, 11 Jan 2015 14:28:01 -0500
+Message-Id: <201501111928.t0BJS15s012572@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:29:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJT1mA012626
+	for <root@server>; Sun, 11 Jan 2015 14:29:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJT1xT012602
+	for root; Sun, 11 Jan 2015 14:29:01 -0500
+Date: Sun, 11 Jan 2015 14:29:01 -0500
+Message-Id: <201501111929.t0BJT1xT012602@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:30:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJU207012656
+	for <root@server>; Sun, 11 Jan 2015 14:30:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJU2K5012632
+	for root; Sun, 11 Jan 2015 14:30:02 -0500
+Date: Sun, 11 Jan 2015 14:30:02 -0500
+Message-Id: <201501111930.t0BJU2K5012632@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:31:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJV2Mg012690
+	for <root@server>; Sun, 11 Jan 2015 14:31:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJV27D012662
+	for root; Sun, 11 Jan 2015 14:31:02 -0500
+Date: Sun, 11 Jan 2015 14:31:02 -0500
+Message-Id: <201501111931.t0BJV27D012662@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:32:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJW1bF012716
+	for <root@server>; Sun, 11 Jan 2015 14:32:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJW1vB012689
+	for root; Sun, 11 Jan 2015 14:32:01 -0500
+Date: Sun, 11 Jan 2015 14:32:01 -0500
+Message-Id: <201501111932.t0BJW1vB012689@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:33:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJX1Hd012749
+	for <root@server>; Sun, 11 Jan 2015 14:33:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJX1P5012721
+	for root; Sun, 11 Jan 2015 14:33:01 -0500
+Date: Sun, 11 Jan 2015 14:33:01 -0500
+Message-Id: <201501111933.t0BJX1P5012721@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:34:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJY2Rj012779
+	for <root@server>; Sun, 11 Jan 2015 14:34:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJY2p3012755
+	for root; Sun, 11 Jan 2015 14:34:02 -0500
+Date: Sun, 11 Jan 2015 14:34:02 -0500
+Message-Id: <201501111934.t0BJY2p3012755@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:35:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJZ2Lf012813
+	for <root@server>; Sun, 11 Jan 2015 14:35:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJZ2Be012785
+	for root; Sun, 11 Jan 2015 14:35:02 -0500
+Date: Sun, 11 Jan 2015 14:35:02 -0500
+Message-Id: <201501111935.t0BJZ2Be012785@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:36:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJa1oc012840
+	for <root@server>; Sun, 11 Jan 2015 14:36:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJa15H012812
+	for root; Sun, 11 Jan 2015 14:36:01 -0500
+Date: Sun, 11 Jan 2015 14:36:01 -0500
+Message-Id: <201501111936.t0BJa15H012812@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:37:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJb1ks012870
+	for <root@server>; Sun, 11 Jan 2015 14:37:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJb1eq012846
+	for root; Sun, 11 Jan 2015 14:37:01 -0500
+Date: Sun, 11 Jan 2015 14:37:01 -0500
+Message-Id: <201501111937.t0BJb1eq012846@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:38:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJc1FS012900
+	for <root@server>; Sun, 11 Jan 2015 14:38:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJc1pE012876
+	for root; Sun, 11 Jan 2015 14:38:01 -0500
+Date: Sun, 11 Jan 2015 14:38:01 -0500
+Message-Id: <201501111938.t0BJc1pE012876@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:39:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJd26s012941
+	for <root@server>; Sun, 11 Jan 2015 14:39:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJd21O012906
+	for root; Sun, 11 Jan 2015 14:39:02 -0500
+Date: Sun, 11 Jan 2015 14:39:02 -0500
+Message-Id: <201501111939.t0BJd21O012906@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:40:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJe22K012995
+	for <root@server>; Sun, 11 Jan 2015 14:40:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJe2sc012948
+	for root; Sun, 11 Jan 2015 14:40:02 -0500
+Date: Sun, 11 Jan 2015 14:40:02 -0500
+Message-Id: <201501111940.t0BJe2sc012948@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:41:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJf146013022
+	for <root@server>; Sun, 11 Jan 2015 14:41:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJf1Un012994
+	for root; Sun, 11 Jan 2015 14:41:01 -0500
+Date: Sun, 11 Jan 2015 14:41:01 -0500
+Message-Id: <201501111941.t0BJf1Un012994@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:42:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJg1m4013048
+	for <root@server>; Sun, 11 Jan 2015 14:42:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJg1PK013026
+	for root; Sun, 11 Jan 2015 14:42:01 -0500
+Date: Sun, 11 Jan 2015 14:42:01 -0500
+Message-Id: <201501111942.t0BJg1PK013026@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:43:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJh1VJ013083
+	for <root@server>; Sun, 11 Jan 2015 14:43:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJh1mc013059
+	for root; Sun, 11 Jan 2015 14:43:01 -0500
+Date: Sun, 11 Jan 2015 14:43:01 -0500
+Message-Id: <201501111943.t0BJh1mc013059@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:44:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJi1nB013106
+	for <root@server>; Sun, 11 Jan 2015 14:44:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJi1YU013087
+	for root; Sun, 11 Jan 2015 14:44:01 -0500
+Date: Sun, 11 Jan 2015 14:44:01 -0500
+Message-Id: <201501111944.t0BJi1YU013087@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:45:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJj21X013143
+	for <root@server>; Sun, 11 Jan 2015 14:45:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJj2g8013119
+	for root; Sun, 11 Jan 2015 14:45:02 -0500
+Date: Sun, 11 Jan 2015 14:45:02 -0500
+Message-Id: <201501111945.t0BJj2g8013119@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:46:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJk2mN013180
+	for <root@server>; Sun, 11 Jan 2015 14:46:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJk2eb013147
+	for root; Sun, 11 Jan 2015 14:46:02 -0500
+Date: Sun, 11 Jan 2015 14:46:02 -0500
+Message-Id: <201501111946.t0BJk2eb013147@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:47:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJl1Mv013206
+	for <root@server>; Sun, 11 Jan 2015 14:47:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJl1nY013179
+	for root; Sun, 11 Jan 2015 14:47:01 -0500
+Date: Sun, 11 Jan 2015 14:47:01 -0500
+Message-Id: <201501111947.t0BJl1nY013179@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:48:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJm17S013236
+	for <root@server>; Sun, 11 Jan 2015 14:48:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJm14Y013210
+	for root; Sun, 11 Jan 2015 14:48:01 -0500
+Date: Sun, 11 Jan 2015 14:48:01 -0500
+Message-Id: <201501111948.t0BJm14Y013210@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:49:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJn2hA013266
+	for <root@server>; Sun, 11 Jan 2015 14:49:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJn2HP013242
+	for root; Sun, 11 Jan 2015 14:49:02 -0500
+Date: Sun, 11 Jan 2015 14:49:02 -0500
+Message-Id: <201501111949.t0BJn2HP013242@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:50:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJo2dD013300
+	for <root@server>; Sun, 11 Jan 2015 14:50:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJo2Rd013270
+	for root; Sun, 11 Jan 2015 14:50:02 -0500
+Date: Sun, 11 Jan 2015 14:50:02 -0500
+Message-Id: <201501111950.t0BJo2Rd013270@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:51:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJp1pn013326
+	for <root@server>; Sun, 11 Jan 2015 14:51:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJp1E6013299
+	for root; Sun, 11 Jan 2015 14:51:01 -0500
+Date: Sun, 11 Jan 2015 14:51:01 -0500
+Message-Id: <201501111951.t0BJp1E6013299@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:52:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJq1Oo013335
+	for <root@server>; Sun, 11 Jan 2015 14:52:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJq1oX013330
+	for root; Sun, 11 Jan 2015 14:52:01 -0500
+Date: Sun, 11 Jan 2015 14:52:01 -0500
+Message-Id: <201501111952.t0BJq1oX013330@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:53:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJr1Y3013386
+	for <root@server>; Sun, 11 Jan 2015 14:53:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJr1ep013362
+	for root; Sun, 11 Jan 2015 14:53:01 -0500
+Date: Sun, 11 Jan 2015 14:53:01 -0500
+Message-Id: <201501111953.t0BJr1ep013362@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:54:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJs2Ym013420
+	for <root@server>; Sun, 11 Jan 2015 14:54:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJs2nm013390
+	for root; Sun, 11 Jan 2015 14:54:02 -0500
+Date: Sun, 11 Jan 2015 14:54:02 -0500
+Message-Id: <201501111954.t0BJs2nm013390@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:55:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJt1Ep013446
+	for <root@server>; Sun, 11 Jan 2015 14:55:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJt16w013419
+	for root; Sun, 11 Jan 2015 14:55:01 -0500
+Date: Sun, 11 Jan 2015 14:55:01 -0500
+Message-Id: <201501111955.t0BJt16w013419@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:56:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJu1uw013458
+	for <root@server>; Sun, 11 Jan 2015 14:56:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJu1ww013450
+	for root; Sun, 11 Jan 2015 14:56:01 -0500
+Date: Sun, 11 Jan 2015 14:56:01 -0500
+Message-Id: <201501111956.t0BJu1ww013450@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:57:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJv1GO013510
+	for <root@server>; Sun, 11 Jan 2015 14:57:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJv1c6013483
+	for root; Sun, 11 Jan 2015 14:57:01 -0500
+Date: Sun, 11 Jan 2015 14:57:01 -0500
+Message-Id: <201501111957.t0BJv1c6013483@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:58:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJw1mh013516
+	for <root@server>; Sun, 11 Jan 2015 14:58:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJw1lX013511
+	for root; Sun, 11 Jan 2015 14:58:01 -0500
+Date: Sun, 11 Jan 2015 14:58:01 -0500
+Message-Id: <201501111958.t0BJw1lX013511@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 14:59:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BJx2eS013572
+	for <root@server>; Sun, 11 Jan 2015 14:59:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BJx2tj013543
+	for root; Sun, 11 Jan 2015 14:59:02 -0500
+Date: Sun, 11 Jan 2015 14:59:02 -0500
+Message-Id: <201501111959.t0BJx2tj013543@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:00:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK02oQ013620
+	for <root@server>; Sun, 11 Jan 2015 15:00:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK02Ro013571
+	for root; Sun, 11 Jan 2015 15:00:02 -0500
+Date: Sun, 11 Jan 2015 15:00:02 -0500
+Message-Id: <201501112000.t0BK02Ro013571@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:01:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK11Yh013647
+	for <root@server>; Sun, 11 Jan 2015 15:01:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK11Jv013619
+	for root; Sun, 11 Jan 2015 15:01:01 -0500
+Date: Sun, 11 Jan 2015 15:01:01 -0500
+Message-Id: <201501112001.t0BK11Jv013619@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:02:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK213A013657
+	for <root@server>; Sun, 11 Jan 2015 15:02:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK21wu013651
+	for root; Sun, 11 Jan 2015 15:02:01 -0500
+Date: Sun, 11 Jan 2015 15:02:01 -0500
+Message-Id: <201501112002.t0BK21wu013651@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:03:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK32Rf013707
+	for <root@server>; Sun, 11 Jan 2015 15:03:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK32DX013683
+	for root; Sun, 11 Jan 2015 15:03:02 -0500
+Date: Sun, 11 Jan 2015 15:03:02 -0500
+Message-Id: <201501112003.t0BK32DX013683@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:04:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK42qM013741
+	for <root@server>; Sun, 11 Jan 2015 15:04:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK42Rt013711
+	for root; Sun, 11 Jan 2015 15:04:02 -0500
+Date: Sun, 11 Jan 2015 15:04:02 -0500
+Message-Id: <201501112004.t0BK42Rt013711@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:05:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK51Ut013775
+	for <root@server>; Sun, 11 Jan 2015 15:05:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK51Dk013740
+	for root; Sun, 11 Jan 2015 15:05:01 -0500
+Date: Sun, 11 Jan 2015 15:05:01 -0500
+Message-Id: <201501112005.t0BK51Dk013740@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:06:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK61nM013783
+	for <root@server>; Sun, 11 Jan 2015 15:06:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK61Jd013777
+	for root; Sun, 11 Jan 2015 15:06:01 -0500
+Date: Sun, 11 Jan 2015 15:06:01 -0500
+Message-Id: <201501112006.t0BK61Jd013777@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:07:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK71h0013834
+	for <root@server>; Sun, 11 Jan 2015 15:07:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK714j013810
+	for root; Sun, 11 Jan 2015 15:07:01 -0500
+Date: Sun, 11 Jan 2015 15:07:01 -0500
+Message-Id: <201501112007.t0BK714j013810@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:08:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK823f013845
+	for <root@server>; Sun, 11 Jan 2015 15:08:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK81NR013838
+	for root; Sun, 11 Jan 2015 15:08:01 -0500
+Date: Sun, 11 Jan 2015 15:08:01 -0500
+Message-Id: <201501112008.t0BK81NR013838@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From jakesyl@jakesyl.ddns.net  Sun Jan 11 15:09:02 2015
+Return-Path: <jakesyl@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK92oh013913
+	for <jakesyl@server>; Sun, 11 Jan 2015 15:09:02 -0500
+Received: (from jakesyl@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK921K013849
+	for jakesyl; Sun, 11 Jan 2015 15:09:02 -0500
+Date: Sun, 11 Jan 2015 15:09:02 -0500
+Message-Id: <201501112009.t0BK921K013849@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd /home/jakesyl/public_html/PhishTrain && git pull
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+
+/bin/sh: 1: cd: can't cd to /home/jakesyl/public_html/PhishTrain
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:09:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BK92Zk013916
+	for <root@server>; Sun, 11 Jan 2015 15:09:02 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BK92wc013873
+	for root; Sun, 11 Jan 2015 15:09:02 -0500
+Date: Sun, 11 Jan 2015 15:09:02 -0500
+Message-Id: <201501112009.t0BK92wc013873@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+From root@jakesyl.ddns.net  Sun Jan 11 15:10:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t0BKA1ps013978
+	for <root@server>; Sun, 11 Jan 2015 15:10:01 -0500
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t0BKA1kp013912
+	for root; Sun, 11 Jan 2015 15:10:01 -0500
+Date: Sun, 11 Jan 2015 15:10:01 -0500
+Message-Id: <201501112010.t0BKA1kp013912@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
