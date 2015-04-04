@@ -15247,3 +15247,1417 @@ X-Cron-Env: <LOGNAME=root>
 
 Already up-to-date.
 
+From root@jakesyl.ddns.net  Sat Apr  4 13:11:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HB2nI020839
+	for <root@server>; Sat, 4 Apr 2015 13:11:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HB2n3019889
+	for root; Sat, 4 Apr 2015 13:11:02 -0400
+Date: Sat, 4 Apr 2015 13:11:02 -0400
+Message-Id: <201504041711.t34HB2n3019889@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:11:04 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HB4LN020842
+	for <root@server>; Sat, 4 Apr 2015 13:11:04 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HB4W7019930
+	for root; Sat, 4 Apr 2015 13:11:04 -0400
+Date: Sat, 4 Apr 2015 13:11:04 -0400
+Message-Id: <201504041711.t34HB4W7019930@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/mail && git pull && git add -A && git commit -m "added update" && git push -f && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+[master 030454e] added update
+ 1 file changed, 1455 insertions(+)
+To https://github.com/jakesyl/mail.git
+   d5ffc84..030454e  master -> master
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:11:28 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HBSiq020846
+	for <root@server>; Sat, 4 Apr 2015 13:11:28 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HBSB4020801
+	for root; Sat, 4 Apr 2015 13:11:28 -0400
+Date: Sat, 4 Apr 2015 13:11:28 -0400
+Message-Id: <201504041711.t34HBSB4020801@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> apt-get update && apt-get upgrade -y
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Hit http://downloads-distro.mongodb.org dist Release.gpg
+Hit http://pkg.jenkins-ci.org binary/ Release.gpg
+Hit http://downloads-distro.mongodb.org dist Release
+Hit http://archive.turnkeylinux.org squeeze Release.gpg
+Hit http://archive.turnkeylinux.org squeeze Release
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://downloads-distro.mongodb.org dist/10gen amd64 Packages
+Hit http://toolbelt.heroku.com ./ Release.gpg
+Hit http://pkg.jenkins-ci.org binary/ Release
+Hit http://archive.turnkeylinux.org squeeze/main amd64 Packages
+Hit http://security.debian.org wheezy/updates Release.gpg
+Hit http://toolbelt.heroku.com ./ Release
+Get:1 http://ftp.us.debian.org wheezy-updates Release.gpg [836 B]
+Hit http://pkg.jenkins-ci.org binary/ Packages
+Hit http://download.opensuse.org  Release.gpg
+Hit http://toolbelt.heroku.com ./ Packages
+Hit http://security.debian.org wheezy/updates Release
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org wheezy/updates/main Sources
+Get:2 http://ftp.us.debian.org wheezy-updates Release [124 kB]
+Hit http://download.opensuse.org  Release
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en_US
+Ign http://archive.turnkeylinux.org squeeze/main Translation-en
+Hit https://get.docker.com docker Release.gpg
+Hit http://security.debian.org wheezy/updates/contrib Sources
+Get:3 http://http.debian.net wheezy-backports Release.gpg [836 B]
+Hit http://download.opensuse.org  Packages
+Ign http://toolbelt.heroku.com ./ Translation-en_US
+Hit http://security.debian.org wheezy/updates/non-free Sources
+Ign http://toolbelt.heroku.com ./ Translation-en
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en_US
+Ign http://downloads-distro.mongodb.org dist/10gen Translation-en
+Hit http://security.debian.org wheezy/updates/main amd64 Packages
+Hit http://security.debian.org wheezy/updates/contrib amd64 Packages
+Hit https://get.docker.com docker Release
+Hit http://security.debian.org wheezy/updates/non-free amd64 Packages
+Hit http://ftp.us.debian.org wheezy/main Sources
+Hit http://security.debian.org wheezy/updates/contrib Translation-en
+Ign http://pkg.jenkins-ci.org binary/ Translation-en_US
+Hit http://ftp.us.debian.org wheezy/non-free Sources
+Hit http://security.debian.org wheezy/updates/main Translation-en
+Ign http://pkg.jenkins-ci.org binary/ Translation-en
+Hit http://ftp.us.debian.org wheezy/contrib Sources
+Get:4 http://http.debian.net wheezy-backports Release [147 kB]
+Hit http://security.debian.org wheezy/updates/non-free Translation-en
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Hit http://ftp.us.debian.org wheezy/non-free amd64 Packages
+Hit https://get.docker.com docker/main amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy/contrib Translation-en
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://ftp.us.debian.org wheezy/non-free Translation-en
+Get:5 http://ftp.us.debian.org wheezy-updates/main Sources [3,316 B]
+Get:6 http://ftp.us.debian.org wheezy-updates/contrib Sources [14 B]
+Ign http://download.opensuse.org  Translation-en_US
+Get:7 http://ftp.us.debian.org wheezy-updates/non-free Sources [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main amd64 Packages/DiffIndex
+Ign http://download.opensuse.org  Translation-en
+Hit http://http.debian.net wheezy-backports/main amd64 Packages/DiffIndex
+Get:8 http://ftp.us.debian.org wheezy-updates/contrib amd64 Packages [14 B]
+Get:9 http://ftp.us.debian.org wheezy-updates/non-free amd64 Packages [14 B]
+Get:10 http://ftp.us.debian.org wheezy-updates/contrib Translation-en [14 B]
+Hit http://ftp.us.debian.org wheezy-updates/main Translation-en/DiffIndex
+Hit http://http.debian.net wheezy-backports/main Translation-en/DiffIndex
+Get:11 http://ftp.us.debian.org wheezy-updates/non-free Translation-en [14 B]
+Ign https://get.docker.com docker/main Translation-en_US
+Ign https://get.docker.com docker/main Translation-en
+Fetched 276 kB in 5s (49.8 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages have been kept back:
+  lxc-docker owncloud
+The following packages will be upgraded:
+  comerr-dev e2fslibs e2fsprogs file fonts-opensymbol gnupg gpgv heroku
+  heroku-toolbelt jenkins libapache2-mod-php5 libarchive12 libc-bin
+  libc-dev-bin libc6 libc6-dev libcomerr2 libcups2 libcupsimage2 libfreetype6
+  libgcrypt11 libgcrypt11-dev libgnutls-dev libgnutls-openssl27 libgnutls26
+  libgnutlsxx27 libicu48 libldap-2.4-2 libldap2-dev libmagic1 libnss-winbind
+  libnss3 libpam-winbind libreoffice libreoffice-base libreoffice-base-core
+  libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw
+  libreoffice-emailmerge libreoffice-filter-binfilter
+  libreoffice-filter-mobiledev libreoffice-impress libreoffice-java-common
+  libreoffice-math libreoffice-report-builder-bin libreoffice-style-galaxy
+  libreoffice-writer libsmbclient libss2 libssh2-1 libssh2-1-dev libssl-dev
+  libssl-doc libssl1.0.0 libwbclient0 libxfont1 linux-image-3.2.0-4-amd64
+  linux-libc-dev locales mongodb-org mongodb-org-mongos mongodb-org-server
+  mongodb-org-shell mongodb-org-tools multiarch-support openssl php-pear php5
+  php5-cli php5-common php5-curl php5-gd php5-intl php5-mcrypt php5-mysql
+  php5-pgsql php5-sqlite python-uno samba samba-common samba-common-bin
+  samba-doc smbclient sudo swat tzdata tzdata-java uno-libs3 ure winbind
+Reading changelogs...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+92 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Need to get 0 B/349 MB of archives.
+After this operation, 673 kB disk space will be freed.
+dpkg: warning: 'ldconfig' not found in PATH or not executable
+dpkg: warning: 'start-stop-daemon' not found in PATH or not executable
+dpkg: error: 2 expected programs not found in PATH or not executable
+Note: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:12:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HC1Jf020873
+	for <root@server>; Sat, 4 Apr 2015 13:12:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HC1so020838
+	for root; Sat, 4 Apr 2015 13:12:01 -0400
+Date: Sat, 4 Apr 2015 13:12:01 -0400
+Message-Id: <201504041712.t34HC1so020838@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:13:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HD2ha020929
+	for <root@server>; Sat, 4 Apr 2015 13:13:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HD2JU020890
+	for root; Sat, 4 Apr 2015 13:13:02 -0400
+Date: Sat, 4 Apr 2015 13:13:02 -0400
+Message-Id: <201504041713.t34HD2JU020890@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:14:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HE22A020957
+	for <root@server>; Sat, 4 Apr 2015 13:14:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HE2on020928
+	for root; Sat, 4 Apr 2015 13:14:02 -0400
+Date: Sat, 4 Apr 2015 13:14:02 -0400
+Message-Id: <201504041714.t34HE2on020928@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:15:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HF254021013
+	for <root@server>; Sat, 4 Apr 2015 13:15:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HF2Ue020974
+	for root; Sat, 4 Apr 2015 13:15:02 -0400
+Date: Sat, 4 Apr 2015 13:15:02 -0400
+Message-Id: <201504041715.t34HF2Ue020974@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:16:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HG13W021041
+	for <root@server>; Sat, 4 Apr 2015 13:16:01 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HG1W4021012
+	for root; Sat, 4 Apr 2015 13:16:01 -0400
+Date: Sat, 4 Apr 2015 13:16:01 -0400
+Message-Id: <201504041716.t34HG1W4021012@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:17:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HH2YW021100
+	for <root@server>; Sat, 4 Apr 2015 13:17:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HH2qt021058
+	for root; Sat, 4 Apr 2015 13:17:02 -0400
+Date: Sat, 4 Apr 2015 13:17:02 -0400
+Message-Id: <201504041717.t34HH2qt021058@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:18:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HI1XP021129
+	for <root@server>; Sat, 4 Apr 2015 13:18:01 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HI1rn021099
+	for root; Sat, 4 Apr 2015 13:18:01 -0400
+Date: Sat, 4 Apr 2015 13:18:01 -0400
+Message-Id: <201504041718.t34HI1rn021099@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:19:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HJ2s8021185
+	for <root@server>; Sat, 4 Apr 2015 13:19:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HJ27Q021146
+	for root; Sat, 4 Apr 2015 13:19:02 -0400
+Date: Sat, 4 Apr 2015 13:19:02 -0400
+Message-Id: <201504041719.t34HJ27Q021146@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:20:01 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HK1aF021232
+	for <root@server>; Sat, 4 Apr 2015 13:20:01 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HK1Is021184
+	for root; Sat, 4 Apr 2015 13:20:01 -0400
+Date: Sat, 4 Apr 2015 13:20:01 -0400
+Message-Id: <201504041720.t34HK1Is021184@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:21:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HL28A021289
+	for <root@server>; Sat, 4 Apr 2015 13:21:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HL2YJ021249
+	for root; Sat, 4 Apr 2015 13:21:02 -0400
+Date: Sat, 4 Apr 2015 13:21:02 -0400
+Message-Id: <201504041721.t34HL2YJ021249@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:22:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HM2RP021332
+	for <root@server>; Sat, 4 Apr 2015 13:22:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HM2Ue021288
+	for root; Sat, 4 Apr 2015 13:22:02 -0400
+Date: Sat, 4 Apr 2015 13:22:02 -0400
+Message-Id: <201504041722.t34HM2Ue021288@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:23:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HN2rL021375
+	for <root@server>; Sat, 4 Apr 2015 13:23:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HN2QX021331
+	for root; Sat, 4 Apr 2015 13:23:02 -0400
+Date: Sat, 4 Apr 2015 13:23:02 -0400
+Message-Id: <201504041723.t34HN2QX021331@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:24:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HO2n1021416
+	for <root@server>; Sat, 4 Apr 2015 13:24:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HO2Fe021374
+	for root; Sat, 4 Apr 2015 13:24:02 -0400
+Date: Sat, 4 Apr 2015 13:24:02 -0400
+Message-Id: <201504041724.t34HO2Fe021374@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:25:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HP2Jd021459
+	for <root@server>; Sat, 4 Apr 2015 13:25:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HP23N021415
+	for root; Sat, 4 Apr 2015 13:25:02 -0400
+Date: Sat, 4 Apr 2015 13:25:02 -0400
+Message-Id: <201504041725.t34HP23N021415@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:26:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HQ2fU021500
+	for <root@server>; Sat, 4 Apr 2015 13:26:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HQ2VE021458
+	for root; Sat, 4 Apr 2015 13:26:02 -0400
+Date: Sat, 4 Apr 2015 13:26:02 -0400
+Message-Id: <201504041726.t34HQ2VE021458@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:27:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HR2SC021543
+	for <root@server>; Sat, 4 Apr 2015 13:27:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HR2jQ021499
+	for root; Sat, 4 Apr 2015 13:27:02 -0400
+Date: Sat, 4 Apr 2015 13:27:02 -0400
+Message-Id: <201504041727.t34HR2jQ021499@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:28:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HS2U0021581
+	for <root@server>; Sat, 4 Apr 2015 13:28:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HS2IP021542
+	for root; Sat, 4 Apr 2015 13:28:02 -0400
+Date: Sat, 4 Apr 2015 13:28:02 -0400
+Message-Id: <201504041728.t34HS2IP021542@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:29:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HT24J021628
+	for <root@server>; Sat, 4 Apr 2015 13:29:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HT2E9021588
+	for root; Sat, 4 Apr 2015 13:29:02 -0400
+Date: Sat, 4 Apr 2015 13:29:02 -0400
+Message-Id: <201504041729.t34HT2E9021588@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:30:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HU255021670
+	for <root@server>; Sat, 4 Apr 2015 13:30:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HU2ud021627
+	for root; Sat, 4 Apr 2015 13:30:02 -0400
+Date: Sat, 4 Apr 2015 13:30:02 -0400
+Message-Id: <201504041730.t34HU2ud021627@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:31:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HV2pw021712
+	for <root@server>; Sat, 4 Apr 2015 13:31:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HV24A021671
+	for root; Sat, 4 Apr 2015 13:31:02 -0400
+Date: Sat, 4 Apr 2015 13:31:02 -0400
+Message-Id: <201504041731.t34HV24A021671@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:32:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HW2oe021743
+	for <root@server>; Sat, 4 Apr 2015 13:32:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HW26i021711
+	for root; Sat, 4 Apr 2015 13:32:02 -0400
+Date: Sat, 4 Apr 2015 13:32:02 -0400
+Message-Id: <201504041732.t34HW26i021711@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:33:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HX2lo021799
+	for <root@server>; Sat, 4 Apr 2015 13:33:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HX2jI021757
+	for root; Sat, 4 Apr 2015 13:33:02 -0400
+Date: Sat, 4 Apr 2015 13:33:02 -0400
+Message-Id: <201504041733.t34HX2jI021757@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:34:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HY2A2021830
+	for <root@server>; Sat, 4 Apr 2015 13:34:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HY2wl021798
+	for root; Sat, 4 Apr 2015 13:34:02 -0400
+Date: Sat, 4 Apr 2015 13:34:02 -0400
+Message-Id: <201504041734.t34HY2wl021798@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:35:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34HZ2d8021883
+	for <root@server>; Sat, 4 Apr 2015 13:35:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34HZ2g6021844
+	for root; Sat, 4 Apr 2015 13:35:02 -0400
+Date: Sat, 4 Apr 2015 13:35:02 -0400
+Message-Id: <201504041735.t34HZ2g6021844@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:36:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Ha2GB021914
+	for <root@server>; Sat, 4 Apr 2015 13:36:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Ha242021882
+	for root; Sat, 4 Apr 2015 13:36:02 -0400
+Date: Sat, 4 Apr 2015 13:36:02 -0400
+Message-Id: <201504041736.t34Ha242021882@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:37:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hb2YC021967
+	for <root@server>; Sat, 4 Apr 2015 13:37:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hb2vA021928
+	for root; Sat, 4 Apr 2015 13:37:02 -0400
+Date: Sat, 4 Apr 2015 13:37:02 -0400
+Message-Id: <201504041737.t34Hb2vA021928@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:38:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hc2J8021999
+	for <root@server>; Sat, 4 Apr 2015 13:38:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hc2qa021966
+	for root; Sat, 4 Apr 2015 13:38:02 -0400
+Date: Sat, 4 Apr 2015 13:38:02 -0400
+Message-Id: <201504041738.t34Hc2qa021966@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:39:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hd2pJ022066
+	for <root@server>; Sat, 4 Apr 2015 13:39:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hd2cG022013
+	for root; Sat, 4 Apr 2015 13:39:02 -0400
+Date: Sat, 4 Apr 2015 13:39:02 -0400
+Message-Id: <201504041739.t34Hd2cG022013@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:40:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34He2NU022113
+	for <root@server>; Sat, 4 Apr 2015 13:40:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34He2JR022063
+	for root; Sat, 4 Apr 2015 13:40:02 -0400
+Date: Sat, 4 Apr 2015 13:40:02 -0400
+Message-Id: <201504041740.t34He2JR022063@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:41:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hf2QN022169
+	for <root@server>; Sat, 4 Apr 2015 13:41:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hf2J2022127
+	for root; Sat, 4 Apr 2015 13:41:02 -0400
+Date: Sat, 4 Apr 2015 13:41:02 -0400
+Message-Id: <201504041741.t34Hf2J2022127@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:42:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hg2aC022198
+	for <root@server>; Sat, 4 Apr 2015 13:42:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hg2nr022168
+	for root; Sat, 4 Apr 2015 13:42:02 -0400
+Date: Sat, 4 Apr 2015 13:42:02 -0400
+Message-Id: <201504041742.t34Hg2nr022168@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:43:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hh2T3022253
+	for <root@server>; Sat, 4 Apr 2015 13:43:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hh2ON022212
+	for root; Sat, 4 Apr 2015 13:43:02 -0400
+Date: Sat, 4 Apr 2015 13:43:02 -0400
+Message-Id: <201504041743.t34Hh2ON022212@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:44:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hi2A0022282
+	for <root@server>; Sat, 4 Apr 2015 13:44:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hi2DF022252
+	for root; Sat, 4 Apr 2015 13:44:02 -0400
+Date: Sat, 4 Apr 2015 13:44:02 -0400
+Message-Id: <201504041744.t34Hi2DF022252@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:45:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hj2OE022337
+	for <root@server>; Sat, 4 Apr 2015 13:45:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hj2SI022296
+	for root; Sat, 4 Apr 2015 13:45:02 -0400
+Date: Sat, 4 Apr 2015 13:45:02 -0400
+Message-Id: <201504041745.t34Hj2SI022296@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:46:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hk2Y7022369
+	for <root@server>; Sat, 4 Apr 2015 13:46:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hk25l022336
+	for root; Sat, 4 Apr 2015 13:46:02 -0400
+Date: Sat, 4 Apr 2015 13:46:02 -0400
+Message-Id: <201504041746.t34Hk25l022336@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:47:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hl2xO022428
+	for <root@server>; Sat, 4 Apr 2015 13:47:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hl2uv022383
+	for root; Sat, 4 Apr 2015 13:47:02 -0400
+Date: Sat, 4 Apr 2015 13:47:02 -0400
+Message-Id: <201504041747.t34Hl2uv022383@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:48:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hm2wl022460
+	for <root@server>; Sat, 4 Apr 2015 13:48:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hm2we022427
+	for root; Sat, 4 Apr 2015 13:48:02 -0400
+Date: Sat, 4 Apr 2015 13:48:02 -0400
+Message-Id: <201504041748.t34Hm2we022427@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:49:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hn2rO022513
+	for <root@server>; Sat, 4 Apr 2015 13:49:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hn27l022474
+	for root; Sat, 4 Apr 2015 13:49:02 -0400
+Date: Sat, 4 Apr 2015 13:49:02 -0400
+Message-Id: <201504041749.t34Hn27l022474@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:50:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Ho2rW022544
+	for <root@server>; Sat, 4 Apr 2015 13:50:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Ho2sL022512
+	for root; Sat, 4 Apr 2015 13:50:02 -0400
+Date: Sat, 4 Apr 2015 13:50:02 -0400
+Message-Id: <201504041750.t34Ho2sL022512@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:51:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hp2Ks022597
+	for <root@server>; Sat, 4 Apr 2015 13:51:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hp2Bg022558
+	for root; Sat, 4 Apr 2015 13:51:02 -0400
+Date: Sat, 4 Apr 2015 13:51:02 -0400
+Message-Id: <201504041751.t34Hp2Bg022558@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:52:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hq21Y022633
+	for <root@server>; Sat, 4 Apr 2015 13:52:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hq2Hk022596
+	for root; Sat, 4 Apr 2015 13:52:02 -0400
+Date: Sat, 4 Apr 2015 13:52:02 -0400
+Message-Id: <201504041752.t34Hq2Hk022596@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:53:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hr2Kv022681
+	for <root@server>; Sat, 4 Apr 2015 13:53:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hr2D1022641
+	for root; Sat, 4 Apr 2015 13:53:02 -0400
+Date: Sat, 4 Apr 2015 13:53:02 -0400
+Message-Id: <201504041753.t34Hr2D1022641@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:54:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hs2EF022718
+	for <root@server>; Sat, 4 Apr 2015 13:54:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hs2FH022680
+	for root; Sat, 4 Apr 2015 13:54:02 -0400
+Date: Sat, 4 Apr 2015 13:54:02 -0400
+Message-Id: <201504041754.t34Hs2FH022680@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:55:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Ht2aR022765
+	for <root@server>; Sat, 4 Apr 2015 13:55:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Ht2OZ022724
+	for root; Sat, 4 Apr 2015 13:55:02 -0400
+Date: Sat, 4 Apr 2015 13:55:02 -0400
+Message-Id: <201504041755.t34Ht2OZ022724@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:56:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hu2QS022807
+	for <root@server>; Sat, 4 Apr 2015 13:56:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hu2DY022764
+	for root; Sat, 4 Apr 2015 13:56:02 -0400
+Date: Sat, 4 Apr 2015 13:56:02 -0400
+Message-Id: <201504041756.t34Hu2DY022764@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:57:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hv2tj022851
+	for <root@server>; Sat, 4 Apr 2015 13:57:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hv2EK022808
+	for root; Sat, 4 Apr 2015 13:57:02 -0400
+Date: Sat, 4 Apr 2015 13:57:02 -0400
+Message-Id: <201504041757.t34Hv2EK022808@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:58:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hw2oV022892
+	for <root@server>; Sat, 4 Apr 2015 13:58:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hw2dD022850
+	for root; Sat, 4 Apr 2015 13:58:02 -0400
+Date: Sat, 4 Apr 2015 13:58:02 -0400
+Message-Id: <201504041758.t34Hw2dD022850@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 13:59:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34Hx2gK022937
+	for <root@server>; Sat, 4 Apr 2015 13:59:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34Hx2AX022893
+	for root; Sat, 4 Apr 2015 13:59:02 -0400
+Date: Sat, 4 Apr 2015 13:59:02 -0400
+Message-Id: <201504041759.t34Hx2AX022893@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:00:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I02ju022995
+	for <root@server>; Sat, 4 Apr 2015 14:00:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I02ae022936
+	for root; Sat, 4 Apr 2015 14:00:02 -0400
+Date: Sat, 4 Apr 2015 14:00:02 -0400
+Message-Id: <201504041800.t34I02ae022936@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:01:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I12fS023040
+	for <root@server>; Sat, 4 Apr 2015 14:01:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I12TX022996
+	for root; Sat, 4 Apr 2015 14:01:02 -0400
+Date: Sat, 4 Apr 2015 14:01:02 -0400
+Message-Id: <201504041801.t34I12TX022996@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:02:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I22YI023080
+	for <root@server>; Sat, 4 Apr 2015 14:02:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I22Vl023039
+	for root; Sat, 4 Apr 2015 14:02:02 -0400
+Date: Sat, 4 Apr 2015 14:02:02 -0400
+Message-Id: <201504041802.t34I22Vl023039@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:03:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I32aa023124
+	for <root@server>; Sat, 4 Apr 2015 14:03:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I32t1023081
+	for root; Sat, 4 Apr 2015 14:03:02 -0400
+Date: Sat, 4 Apr 2015 14:03:02 -0400
+Message-Id: <201504041803.t34I32t1023081@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:04:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I42FA023165
+	for <root@server>; Sat, 4 Apr 2015 14:04:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I42Zr023123
+	for root; Sat, 4 Apr 2015 14:04:02 -0400
+Date: Sat, 4 Apr 2015 14:04:02 -0400
+Message-Id: <201504041804.t34I42Zr023123@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:05:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I52UC023208
+	for <root@server>; Sat, 4 Apr 2015 14:05:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I52H9023164
+	for root; Sat, 4 Apr 2015 14:05:02 -0400
+Date: Sat, 4 Apr 2015 14:05:02 -0400
+Message-Id: <201504041805.t34I52H9023164@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:06:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I621b023250
+	for <root@server>; Sat, 4 Apr 2015 14:06:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I62gW023207
+	for root; Sat, 4 Apr 2015 14:06:02 -0400
+Date: Sat, 4 Apr 2015 14:06:02 -0400
+Message-Id: <201504041806.t34I62gW023207@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:07:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I72VL023292
+	for <root@server>; Sat, 4 Apr 2015 14:07:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I72Pg023251
+	for root; Sat, 4 Apr 2015 14:07:02 -0400
+Date: Sat, 4 Apr 2015 14:07:02 -0400
+Message-Id: <201504041807.t34I72Pg023251@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:08:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I824O023339
+	for <root@server>; Sat, 4 Apr 2015 14:08:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I82JW023291
+	for root; Sat, 4 Apr 2015 14:08:02 -0400
+Date: Sat, 4 Apr 2015 14:08:02 -0400
+Message-Id: <201504041808.t34I82JW023291@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
+From jakesyl@jakesyl.ddns.net  Sat Apr  4 14:09:01 2015
+Return-Path: <jakesyl@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I916b023377
+	for <jakesyl@server>; Sat, 4 Apr 2015 14:09:01 -0400
+Received: (from jakesyl@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I91O5023305
+	for jakesyl; Sat, 4 Apr 2015 14:09:01 -0400
+Date: Sat, 4 Apr 2015 14:09:01 -0400
+Message-Id: <201504041809.t34I91O5023305@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: jakesyl@server
+Subject: Cron <jakesyl@server> cd /home/jakesyl/public_html/PhishTrain && git pull
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/jakesyl>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=jakesyl>
+
+/bin/sh: 1: cd: can't cd to /home/jakesyl/public_html/PhishTrain
+
+From root@jakesyl.ddns.net  Sat Apr  4 14:09:02 2015
+Return-Path: <root@jakesyl.ddns.net>
+Received: from server (localhost [127.0.0.1])
+	by server (8.14.4/8.14.4/Debian-4) with ESMTP id t34I92Mf023395
+	for <root@server>; Sat, 4 Apr 2015 14:09:02 -0400
+Received: (from root@localhost)
+	by server (8.14.4/8.14.4/Submit) id t34I92bX023338
+	for root; Sat, 4 Apr 2015 14:09:02 -0400
+Date: Sat, 4 Apr 2015 14:09:02 -0400
+Message-Id: <201504041809.t34I92bX023338@server>
+From: root@jakesyl.ddns.net (Cron Daemon)
+To: root@server
+Subject: Cron <root@server> cd /var/www/ && git pull 
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+
+Already up-to-date.
+
